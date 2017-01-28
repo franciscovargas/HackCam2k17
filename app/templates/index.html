@@ -1,32 +1,47 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-</head>
-<style>
+<html>
+  <head>
+    <title>test</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-.links line {
-  stroke: #999;
-  stroke-opacity: 0.6;
-}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-.nodes circle {
-  stroke: #fff;
-  stroke-width: 1.5px;
-}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-</style>
-<script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="../static/js/graph_api.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link ref="stylesheet" type="text/css" href="{{ url_for('static', filename='css/graph.css') }}" >
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="{{ url_for('static', filename='js/graph_api.js')}}"></script>
 
 
-<script>
-$( document ).ready(function() {
-  var g = new SvgGraph();
-  g.gen_graph();
-});
-</script>
+  </head>
 
-<body>
-  <svg id="graph" width="960" height="600"></svg>
-</body>
+  <style type="text/css">
+    body {
+      background-color: black !important;
+    }
+    .links line {
+      stroke: #999;
+      stroke-opacity: 0.6;
+    }
+
+    .nodes circle {
+      stroke: #fff;
+      stroke-width: 1.5px;
+    }
+  </style>
+
+  <script>
+  $( document ).ready(function() {
+    // instantiating graph object
+    var graphObject = new SvgGraph();
+    // running graph methods TODO: Scheduler | conds satisfied
+    graphObject.gen_graph();
+  });
+  </script>
+
+  <body>
+    <svg id="graph" width="960" height="600"></svg>
+  </body>
+</html>

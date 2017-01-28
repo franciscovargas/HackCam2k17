@@ -1,0 +1,20 @@
+body {
+  background:
+     url(sweettexture.jpg)    /* image */
+     top center / 200px 200px /* position / size */
+     no-repeat                /* repeat */
+     fixed                    /* attachment */
+     padding-box              /* origin */
+     content-box              /* clip */
+     red;                     /* color */
+}
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
