@@ -1,38 +1,42 @@
-function gen_graph(){
 
-  var svg = d3.select("#graph"),
-      width = +svg.attr("width"),
-      height = +svg.attr("height");
 
-  var color = d3.scaleOrdinal(d3.schemeCategory20);
+function SvgGraph () {
+    this.svg = d3.select("#graph"),
+    this.width = +this.svg.attr("width"),
+    this.height = +this.svg.attr("height");
+    this.color = d3.scaleOrdinal(d3.schemeCategory20);
+    this.url1 =  "/graph_data";
+}
 
-  var url1 = "/graph_data";
-
+SvgGraph.prototype.gen_graph = function(){
+ 
   var simulation = d3.forceSimulation()
       .force("link", d3.forceLink().id(function(d) { return d.id; }))
       .force("charge", d3.forceManyBody())
-      .force("center", d3.forceCenter(width / 2, height / 2));
+      .force("center", d3.forceCenter(this.width / 2, this.height / 2));
+  console.log(this.svg + "");
+  local_svg = this.svg;
+  var $this = this;
+  $.getJSON(this.url1).done([function(graph) {
 
-  $.getJSON(url1).done([function(graph) {
-
-    var link = svg.append("g")
+    var link = $this.svg.append("g")
         .attr("class", "links")
       .selectAll("line")
       .data(graph.links)
       .enter().append("line")
         .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
 
-    var node = svg.append("g")
+    var node = $this.svg.append("g")
         .attr("class", "nodes")
       .selectAll("circle")
       .data(graph.nodes)
       .enter().append("circle")
         .attr("r", 5)
-        .attr("fill", function(d) { return color(d.group); })
+        .attr("fill", function(d) { return $this.color(d.group); })
         .call(d3.drag()
-            .on("start", dragstarted)
-            .on("drag", dragged)
-            .on("end", dragended));
+            .on("start", this.dragstarted)
+            .on("drag", this.dragged)
+            .on("end", this.dragended));
 
     node.append("title")
         .text(function(d) { return d.id; });
@@ -58,18 +62,18 @@ function gen_graph(){
   }]);
 }
 
-function dragstarted(d) {
+SvgGraph.prototype.dragstarted = function (d) {
   if (!d3.event.active) simulation.alphaTarget(0.3).restart();
   d.fx = d.x;
   d.fy = d.y;
 }
 
-function dragged(d) {
+SvgGraph.prototype.dragged =  function(d) {
   d.fx = d3.event.x;
   d.fy = d3.event.y;
 }
 
-function dragended(d) {
+SvgGraph.prototype.dragended = function (d) {
   if (!d3.event.active) simulation.alphaTarget(0);
   d.fx = null;
   d.fy = null;
