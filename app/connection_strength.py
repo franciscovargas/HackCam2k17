@@ -1,3 +1,4 @@
+import json
 from sklearn.feature_extraction.text import *
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.cluster import KMeans
@@ -10,6 +11,7 @@ from scipy import sparse
 import numpy as np
 import string
 import pickle
+from IPython import embed
 
 
 
@@ -27,8 +29,10 @@ class StemmTokenizer(object):
         return stemmed
 
     def __call__(self, doc):
-        tokens = word_tokenize(doc)
-        tokens = [i for i in tokens if i not in string.punctuation]
+        # tokens = word_tokenize(doc)
+        # tokens = [i for i in tokens if i not in string.punctuation]
+        remove_punctuation_map = dict((ord(char), None) for char in string.punctuation)
+        tokens = word_tokenize(doc.lower().translate(remove_punctuation_map))
         return self.stem_tokens(tokens, self.stemmer)
 
 class LemmaTokenizer(object):
@@ -50,7 +54,8 @@ def get_vector_space(docs):
     smooth_idf : true or false
     tokenizer : stemming
     """
-    return TfidfVectorizer(smooth_idf=False, tokenizer=LemmaTokenizer(), stop_words='english')
+    return TfidfVectorizer(smooth_idf=False, tokenizer=StemmTokenizer(), stop_words='english')
+    # return TfidfVectorizer(smooth_idf=False, tokenizer=LemmaTokenizer(), stop_words='english')
 
 
 def apply_weight(transformer, docs_vectors, filter_keywords):
@@ -60,7 +65,6 @@ def apply_weight(transformer, docs_vectors, filter_keywords):
     Normalize?
     """
 
-
     model = Word2Vec.load('brown_model')
     main_word = filter_keywords[0]
 
@@ -68,8 +72,11 @@ def apply_weight(transformer, docs_vectors, filter_keywords):
         weights = np.zeros(len(transformer.get_feature_names()))
         i = 0
         for word in transformer.get_feature_names():
-            weights[i] = model.similarity(main_word, word)
-            i = i + 1
+            if word in model.vocab:
+                weights[i] = model.similarity(main_word, word)
+                i = i + 1
+            else:
+                weights[i] = 0
 
         # print weights
         # weights = weights / np.linalg.norm(weights)
@@ -137,6 +144,27 @@ def correlation_matrix(docs):
 
     return cr_matrix
 
+def agg_dist(docs, kmeans):
+    """
+    Finds intra cluster agregate distance
+    for each cluster and sums them up
+    as an overal measure of dispersion
+    in the clustering.
+    """
+    agg_d = 0
+    labels = kmeans.labels_
+    centroids = kmeans.cluster_centers_
+
+    # print docs.shape # 35
+
+    for d in range(docs.shape[0]):
+        #print docs[d].toarray().reshape(docs[d].shape[1]).shape # 2382
+        #print centroids[d].shape # 2382
+        doc = docs[d].toarray().reshape(docs[d].shape[1])
+        dist = np.linalg.norm(doc-centroids[labels[d]])
+        agg_d += dist
+
+    return agg_d
 
 def counter(docs):
     """
@@ -150,23 +178,36 @@ def counter(docs):
 
 def choose_k(docs):
 
-    scores = np.arrange(1,6)
+    # scores = np.arrange(1,6)
 
-    for i in range(1,6):
+    # for i in range(1,6):
+    #     kmeans_model = KMeans(n_clusters=i, random_state=1).fit(docs)
+    #     scores[i] = 0 # fix this
+
+    # # use the scores to pick k between 1 and 6
+
+    scores = np.zeros(6-2)
+    differences = np.zeros(6-3)
+    differences2 = np.zeros(6-4)
+    for i in range(2,6):
         kmeans_model = KMeans(n_clusters=i, random_state=1).fit(docs)
-        scores[i] = 0 # fix this
+        scores[i-2] = agg_dist(docs, kmeans_model) # fix this
+ 
+    for j in range(len(differences)):
+        differences[j] = scores[j] - scores[j+1]
+ 
+    for z in range(len(differences2)):
+        differences2[z] = differences[z] - differences[z+1]
 
-    # use the scores to pick k between 1 and 6
-
-    return 3
+    return np.argmax(differences2) + 3
 
 def k_cluster(docs):
     """
     Do a clustering between all documents.
     k is chosen automatically (the elbow method)
     """
-    kmeans_model = KMeans(n_clusters=3, random_state=1).fit(docs)
-
+    # kmeans_model = KMeans(n_clusters=3, random_state=1).fit(docs)
+    kmeans_model = KMeans(n_clusters=choose_k(docs), random_state=1).fit(docs)
     # for evaluation
     labels = kmeans_model.labels_
     eval = metrics.silhouette_score(docs, labels, metric='euclidean')
@@ -206,7 +247,7 @@ def extract_keywords_cluster(kmeans, transformer, docs_vectors, cluster_doc_num)
 
     return cluster_weights
 
-def save_jasonFile(docs, D, kmeans, names):
+def save_jasonFile(docs, D, kmeans, names, urls, snippets):
     """
     make a dictionary and save it as a jason file for visualization
     """
@@ -217,13 +258,20 @@ def save_jasonFile(docs, D, kmeans, names):
     for id in range(len(docs)):
         d = {}
         d["id"] = names[id]
-        d["group"] = kmeans.labels_[id]
+        d["group"] = float( kmeans.labels_[id])
+        d["url"] = urls[id]
+        d["snippet"] = snippets[id]
         nodes.append(d)
 
     cr_matrix = correlation_matrix(D)
-    for i in range(len(docs)):
-        for j in range(len(docs)):
-            if (cr_matrix[i,j] > 0.5):
+    # threshold = np.percentile(cr_matrix, 100*((len(kmeans.cluster_centers_) - 1.0)/len(kmeans.cluster_centers_))) 
+    threshold = np.percentile(cr_matrix, 90)
+
+    for i in range(len(docs)-1):
+        for j in range(i+1,len(docs)):
+            if (cr_matrix[i,j] > threshold):
+                print(i,j)
+                print(names[i], names[j])
                 d = {}
                 d["source"] = names[i]
                 d["target"] = names[j]
@@ -231,9 +279,15 @@ def save_jasonFile(docs, D, kmeans, names):
                 links.append(d)
 
 
-    print nodes
-    print links
+    # print nodes
+    # print links
+    with open("test.json", "wb") as f:
+        # embed()
+        jsn = json.dumps({"nodes" : nodes, "links" : links}, indent=2)
+        f.write(jsn)
+
     return {"nodes" : nodes, "links" : links}
+
 
 if __name__ == "__main__":
 
@@ -241,13 +295,19 @@ if __name__ == "__main__":
         data = pickle.load(f)
 
 
+
     print data[0].keys()
     docs = []
     names = []
+    snippets = []
+    urls = []
     for d in data:
         names.append(d['name'])
         docs.append(d['text'])
+        snippets.append(d['snippet'])
+        urls.append(d['url'])
 
+    print len(set(names)) < len(names)
 
     # docs = ['This is the first run document.',
     # 'This is the second second running document dog.',
@@ -261,4 +321,4 @@ if __name__ == "__main__":
     D = transformer.fit_transform(docs)
     D = apply_weight(transformer, D, filter_keywords)
     km = k_cluster(D)
-    x = save_jasonFile(docs, D, km, names)
+    x = save_jasonFile(docs, D, km, names, urls, snippets)

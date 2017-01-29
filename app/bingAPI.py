@@ -11,6 +11,8 @@ import numpy as np
 
 from IPython import embed
 
+MAX_NUMBER_OF_CHARACTERS = 5000
+
 
 
 class Search_query(object):
@@ -27,8 +29,6 @@ class Search_query(object):
         self.sampelled_pages  = []
         with open("words.txt") as f:
             self.words = set(f.read().split())
-
-        embed()
         
 
     def query_bing_search(self, query_str=None, count = 10, offset = 0):
@@ -88,8 +88,8 @@ class Search_query(object):
         page_text = re.sub(r'[^\x00-\x7F]+',' ', page_text)  # filters out weird character
         page_text = re.sub(r'([\t|\n| ])+',' ', page_text)   # filters out consecutive tabs, spaces and new lines
         as_list = str(page_text).split()
-        embed()
         page_text = ' '.join(filter( lambda x: len(x)<30 and x in self.words, as_list))
+        page_text = page_text[:MAX_NUMBER_OF_CHARACTERS]
         return (url, page_text)
 
     def web_page_text(self, url):
@@ -116,6 +116,7 @@ class Search_query(object):
         page_text = re.sub(r'([\t|\n| ])+',' ', page_text)
         as_list = str(page_text).split()
         page_text = ' '.join(filter( lambda x: len(x)<30 and x in self.words, as_list))
+        page_text = page_text[:MAX_NUMBER_OF_CHARACTERS]
         return (url, page_text)
 
     def sample(self, n_samples = 35):
@@ -131,14 +132,19 @@ class Search_query(object):
         print(len(self.results_dict.keys()))
         print ids
 
+        name_set = set([])
         for i in ids:
-            url = self.results_dict[i]['displayUrl']
-            text = self.web_page_text(url)
-            if text is None:
-                print i, "skipped, was None", url
-                continue
-            # self.sampelled_pages.append((i,url,text))
-            self.sampelled_pages.append({'id':i,'url':url,'name':self.results_dict[i]['name'],'snippet':self.results_dict[i]['snippet'], 'text':text}) #(i,url,text))
+            if i in self.results_dict:
+                url = self.results_dict[i]['displayUrl']
+                text = self.web_page_text(url)
+                if text is None:
+                    print i, "skipped, was None", url
+                    continue
+                # self.sampelled_pages.append((i,url,text))
+                if self.results_dict[i]['name'] in name_set:
+                    self.results_dict[i]['name'] = self.results_dict[i]['name']+'_'
+                name_set |= set([self.results_dict[i]['name']])
+                self.sampelled_pages.append({'id':i,'url':url,'name':self.results_dict[i]['name'],'snippet':self.results_dict[i]['snippet'], 'text':text}) #(i,url,text))
             
 
         max_iter = 200
@@ -149,13 +155,18 @@ class Search_query(object):
             i = np.random.random_integers(0,len(ids))
             # if i not in [j[0] for j in self.sampelled_pages]:
             if i not in [j['id'] for j in self.sampelled_pages]:
-                url = self.results_dict[i]['displayUrl']
-                text = self.web_page_text(url)
-                if text is None:
-                    print i, "skipped, was None in while loop", url
-                    continue
-                # self.sampelled_pages.append((i,url,text))
-                self.sampelled_pages.append({'id':i,'url':url,'name':self.results_dict[i]['name'],'snippet':self.results_dict[i]['snippet'], 'text':text}) #(i,url,text))
+                if i in self.results_dict:
+                    url = self.results_dict[i]['displayUrl']
+                    text = self.web_page_text(url)
+                    if text is None:
+                        print i, "skipped, was None in while loop", url
+                        continue
+                    # self.sampelled_pages.append((i,url,text))
+
+                    if self.results_dict[i]['name'] in name_set:
+                        self.results_dict[i]['name'] = self.results_dict[i]['name']+'_'
+                    name_set |= set([self.results_dict[i]['name']])
+                    self.sampelled_pages.append({'id':i,'url':url,'name':self.results_dict[i]['name'],'snippet':self.results_dict[i]['snippet'], 'text':text}) #(i,url,text))
 
 
         with open("sampelled_pages.pkl",'wb') as fp:
@@ -169,6 +180,11 @@ if __name__ == '__main__':
     query = Search_query('smartphone')
     out = query.sample()
 
+    # just for the record
+    f = open("out","wb")
+    f.write(str(out))
+    f.close()
+
 # # # out is list of dictionaries with keys id, url, name, snippet, text per each web page 
 # # [
 # #     {'id':23,
@@ -179,9 +195,5 @@ if __name__ == '__main__':
 # # ]
 
 
-# just for the record
-f = open("out","wb")
-f.write(str(out))
-f.close()
 
 # embed()

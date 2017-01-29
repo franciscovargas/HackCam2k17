@@ -1,1 +1,679 @@
-
+(lp1
+(dp2
+S'url'
+p3
+Vhttps://www.att.com/shop/wireless/devices/smartphones.html
+p4
+sS'snippet'
+p5
+VAT&T has Smartphones for every budget. Shop our selection of Smartphones including the iPhone 7 and 7 Plus, LG, HTC, & Samsung Galaxy Smartphones from AT&T.
+p6
+sS'text'
+p7
+(g4
+S'for new function if if return return function referrer request new return return if else if if request new referrer referrer if else has a for host true function function if if return input span solid normal function if return else if selected devices to maximum is will not be else tags browser and unknown unknown unknown for if if return else if return index if return for newer browser and with names call to profile method to make call to to get a and set in the cookie or function with our for fixing the new new else start end end start end end start end end start end end zip zip start end end start end end data from to upper funnel profile object required check availability properties to undefined local only upon authenticated flow or check availability flow null null null null value value value value if key if value if if key value else key value value from instead of profile because of order summary session invalidation if value setting browser and operating system after reading from the client side value that is coming from profile if if else if cookie not if null undefined else attempts to check for the if cookie not found after new else find after so no profile call would be else the so making call to the later we may want to move it up the functions to save the objects required for thankyou page campaigns setup function function function if else start end end start end end start end end start end end zip zip null null value if value value value if key if value if cart prod id for thank you page from variable for promotions on thank you page flow identifier from variable for promotions on thank you page start end end function null undefined period after which profile call to made if in and browser is still if is there in cookie and storage are same has not changed cache period already made for this so no new call would be else changed or cache period make the call or also is not found in storage the profile call for if new null undefined type data cache timeout success if null if else error is if service call request timed function value parts name if return with en en link will open a new window link will open a new window dashed solid and function there are no scripts that then load it to hosted version to hosted version to hosted version to hosted version to hosted version to hosted version to hosted version function return return return return return return return function function null for position if tile selected on device list need to show only contract terms and hide some filters as if browsers needs conditional override of to left left browsers needs conditional override of to left left browsers needs conditional override of to left left filters radio by annual contract year contract plan more less child filter on page load else child filter on page load else by and up by more less child filter on page load else radio by more less child filter on page load else by more less child filter on page load else by more less child filter on page load else by more less child filter on page load else availability by more less child filter on page load else with device currently in cart all of devices by to to to function all devices compatible filters all entirely new camera most colorful display fastest performance and best battery life in an bit as powerful as it is to to installment and price details to entirely new camera most colorful display fastest performance and best battery life in an bit as powerful as it is dual most colorful display fastest performance and best battery life in an stereo bit as powerful as it is to to installment and price details to dual most colorful display fastest performance and best battery life in an stereo bit as powerful as it is life calls for a bigger call on the contoured display and intuitive operation with a and camera delivers a bolder experience for everyday installment and price details to life calls for a bigger call on the contoured display and intuitive operation with a and camera delivers a bolder experience for everyday the remarkable power and revolutionary the offers a gorgeous and stylus all wrapped in a sleek new at installment and price details to the remarkable power and revolutionary the offers a gorgeous and stylus all wrapped in a sleek new at series advanced and so much you ll see how with the only thing that changed is to to installment and price details to series advanced and so much you ll see how with the only thing that changed is series advanced and so much see how with the only thing changed is to to installment and price details to series advanced and so much see how with the only thing changed is and packed with the shows an amazing picture on a with you can watch live and recorded shows installment and price details to and packed with the shows an amazing picture on a with you can watch live and recorded shows edge edge is the big on screen and slim on yourself in the display featuring an and fast wireless installment and price de'
+tp8
+sS'id'
+p9
+cnumpy.core.multiarray
+scalar
+p10
+(cnumpy
+dtype
+p11
+(S'i8'
+I0
+I1
+tRp12
+(I3
+S'<'
+NNNI-1
+I-1
+I0
+tbS'\x02\x00\x00\x00\x00\x00\x00\x00'
+tRp13
+sS'name'
+p14
+VSmartphones - AT&T has a Smartphone for Every Budget
+p15
+sa(dp16
+g3
+Vhttps://www.cnet.com/topics/phones/products
+p17
+sg5
+VSmartphone Tripod with Bluetooth Remote for $16 + free shipping. $380.00. Refurb Unlocked Apple iPhone 6s 64GB Phone for $380 + free shipping. $250.00.
+p18
+sg7
+(g17
+S'max errors sent per page text return party a script error timeout for a load timeout function new if else if where try doc dom doc if true details might have this explains what caused its that news may have been overshadowed by a leak about next flagship if queuing for smart home devices our smart apartment our smart house to queuing for phones phones phones queuing for to to to and to not specified carriers more more system system more phone phone options queuing for of from leather and ruby while including fully encrypted the is the phone for the wealthy and tries to be a great camera and a phone at but not great at being it looks similar to the unveiled in late last the has a better camera and slight design the expected at will likely do away with modular accessories and embrace water queuing for phone surprisingly not called is now official and packs pretty decent midrange specs for just shimmer gold has a luxurious build overshadowed by and poor performance better off with the or a cheaper runs the and is already on sale in but make its debut in the rest of the world at the end of almost certainly at the largest mobile queuing for smaller of new phones pairs software smarts with a more size and midrange are says it wants to use to fix it for red battery life and camera make it a great even if it as as more special sensor can tell you how sweet your food is and your body fat phone finally slices its way to the queuing for uses that juice to power a system with optical cameras and specs add up to a lot of so long as the and keyboards go together like peanut butter and jelly on the phone known as peach cloud more to life than looking and this series proves it with water resistant features and front and rear has two rear a seriously low price tag and a battery that promises to last two pink gold from is the answer for savvy doodlers looking for a queuing for and for free shipping for free shipping for free shipping queuing for for free shipping for free shipping free shipping queuing for queuing for queuing for queuing for queuing for queuing for of queuing for function if else if if if new new new new in in in in a a a try'
+tp19
+sg9
+g10
+(g12
+S'\x06\x00\x00\x00\x00\x00\x00\x00'
+tRp20
+sg14
+VPhone Reviews - CNET
+p21
+sa(dp22
+g3
+Vsmartphones.specout.com
+p23
+sg5
+VThe image resolution, which is measured in megapixels, of a smartphone's rear camera. The more megapixels, the higher resolution the images produced will be.
+p24
+sg7
+(g23
+S'has been you believe that you should not have been you can the site admin at at dot'
+tp25
+sg9
+g10
+(g12
+S'\x0c\x00\x00\x00\x00\x00\x00\x00'
+tRp26
+sg14
+VCompare Best Smartphones of 2016 - Reviews and Prices
+p27
+sa(dp28
+g3
+Vhttps://www.lifewire.com/what-makes-a-smartphone-smart-579597
+p29
+sg5
+VNot all cell phones are smartphones. So, how, exactly, is a smartphone different than a cell phone, and what makes it so smart?
+p30
+sg7
+(g29
+S'is a in in with a long description of the remove on client all cell phones are is a different than a cell and what makes it so is a a a a a all cell phones are is a different than a cell and what makes it so probably hear the term tossed around a if ever wondered exactly what a not is a different than a cell and what makes it so a a is a device that lets you make telephone but also adds in features in the you would have found only on a personal digital assistant or a as the ability to send and receive and edit for to really understand what a is is and whether should buy start with a history the there were cell phones and personal digital assistants phones were used for making not much like the were used as portable could store your contact info and a and could sync with your gained wireless and were able to send and receive gained then added cellular phone while cell phones added more even result was the there is no standard definition of the term across the we thought it would be helpful to point out what we here at define as a and what we consider a cell are the features we look a will be based an operating that allows it to run runs the and run the devices run and almost all cell phones include some sort of software the most basic models these days include address or some sort of contact for a will have the ability to do may allow you to create and edit at least the may allow you to download such as personal and business finance handy personal almost it may allow you to edit get directions via and create a of digital can access the at higher thanks to the growth of and data as well the addition of to many while not all offer they all offer some sort of can use your to browse your favorite our a includes a means that the keys are laid out in the same manner they would be on your computer in alphabetical order on top of a numeric where you have to tap the number to enter an or keyboard can be hardware keys that you type or software a touch like find on the cell phones can send and receive but what sets a apart is its handling of can sync with your personal most your professional can support multiple include access to the popular instant like and are just some of the features that make a technology surrounding and cell phones is constantly constitutes may change by next next or next the to an on a the site a tackle the what is a and why is it so by probably hear the term tossed around a if ever wondered exactly what a not is a different than a cell and what makes it so a a is a device that lets you make telephone but also adds in features in the you would have found only on a personal digital assistant or a as the ability to send and receive and edit for to really understand what a is is and whether you should buy start with a history the there were cell phones and personal digital assistants phones were used for making not much like the were used as portable could store your contact info and a and could sync with your gained wireless and were able to send and receive gained then added cellular phone while cell phones added more even result was the there is no standard definition of the term across the we thought it would be helpful to point out what we here at define as a and what we consider a cell are the features we look a will be based on an operating system that allows it to run runs the and run the devices run and almost all cell phones include some sort of software the most basic models these days include an address book or some sort of contact for a will have the ability to do may allow you to create and edit at least view the may allow you to download such as personal and business finance handy personal almost it may allow you to edit get directions via and create a of digital can access the at higher thanks to the growth of and data as well as the addition of support to many while not all offer they all offer some sort of can use your to browse your favorite our a includes a means that the keys are laid out in the same manner they would be on your computer in alphabetical order on top of a numeric where you have to tap the number to enter an or keyboard can be hardware keys that you type or software a touch like find on the cell phones can send and receive text but what sets a apart is its handling of can sync with your personal most your professional can support multiple include access to the popular instant like and are just some of the features that make a technology surrounding and cell phones is constantly constitutes a today may change by next next or next the to an on an or to an is in and the or for for is a an or to an is in a a for to or in for and in the was an try enter a valid you for signing of rights where try doc dom doc uses this if using the approach function new false if is a reference to the global object else if we use and look for if if is a reference to the global object article if all cell phones are is a different than a cell and what makes it so is a a a true'
+tp31
+sg9
+g10
+(g12
+S'\x04\x00\x00\x00\x00\x00\x00\x00'
+tRp32
+sg14
+VWhat is a Smartphone? - lifewire.com
+p33
+sa(dp34
+g3
+Vwww.ebay.com/sch/i.html?_nkw=smartphone
+p35
+sg5
+VFind great deals on eBay for smartphone and smartphone unlocked. Shop with confidence.
+p36
+sg7
+(g35
+S'solid solid only screen and only screen and enable new search experience requires to be enable on your then try to main by your search in to bid or list list lists history searches elm false unlocked android galaxy one galaxy under the you may not use this file except in compliance with the may obtain a copy of the at required by applicable law or agreed to in software distributed under the is distributed on an either express or the for the specific language governing permissions and limitations under the deals and best selling products for ads ending soonest newly listed lowest first highest first nearest first view results for to get alerts and updates on your to stop getting updates on your now following in your will receive alerts for new send me this search in search results by to sold services and international tracking provided bids more like this services and international tracking provided sold more like this services and international tracking provided or sold more like this services and international tracking provided watching more like this services and international tracking provided to sold services and international tracking provided sold services and international tracking provided to sold sold services and international tracking provided to international shipping sold to sold services and international tracking provided sold off services and international tracking provided to sold services and international tracking provided sold services and international tracking provided to international shipping sold to sold services and international tracking provided international shipping sold sold more like this services and international tracking provided to international shipping watching watching more like this services and international tracking provided sold more like this services and international tracking provided to international shipping watching by watching listing edge off more like this services and international tracking provided sold services and international tracking provided to sold more like this to international shipping lite international shipping watching finger to international shipping watching off sold services and international tracking provided to international shipping watching off sold more like this services and international tracking provided to international shipping watching off condition condition to international shipping watching off to international shipping off or international shipping sold more like this watching more like this services and international tracking provided sold more like this sold more like this services and international tracking provided watching more like this services and international tracking provided sold to sold services and international tracking provided watching more like this services and international tracking provided watching more like this to sold sold more like this services and international tracking provided watching more like this services and international tracking provided sold services and international tracking provided sold in to international shipping watching to watching fingerprint to international shipping off by us what you think per for search results determines this price through a machine learned model of the sale prices within the last determines trending price through a machine learned model of the product sale prices within the last refers to a undamaged and refers to an item that has been used with highest buyer money in a business day with with highest buyer money in a business day with refinements more see see see see see see see see see edge see see or see see see see other refurbished refurbished parts or not working enter a minimum maximum price before minimum price to maximum price see see see international shipping only see only accepted listings listings site navigation and about pricing page was last of bids and bid amounts may be slightly out of each listing for international shipping options and if in for new this this this new will be sent for this have reached the maximum number of saved we encountered an internal try again your enter a valid new item is on your new new more fewer or other other parts or not parts or not maximum minimum minimum maximum price international international content to close selected additional additional return'
+tp37
+sg9
+g10
+(g12
+S'\t\x00\x00\x00\x00\x00\x00\x00'
+tRp38
+sg14
+Vsmartphone | eBay
+p39
+sa(dp40
+g3
+Vwww.techradar.com/news/phone-and-communications/mobile-phones/20...
+p41
+sg5
+VLooking for the best smartphone? Our definitive list checks out the iPhone 7, Galaxy S7, HTC 10 and more so your know which is right for you to buy.
+p42
+sg7
+(g41
+S'when parsing font in try new new to load screen and screen and solid screen and only screen and solid solid header header header header header header header header header header header header header header header header header header header header header header header header header header header header header header footer footer screen and solid header screen and dotted only screen and only screen and only screen and only screen and infinite only screen and only screen and solid screen and only screen and only screen and only screen and solid solid only screen and only screen and solid only screen and only screen and only screen and only screen and only screen and solid only screen and only screen and screen and solid solid screen and solid solid solid solid solid screen and solid screen and screen and screen and screen and screen and screen and screen and screen and screen and solid solid solid solid screen and screen and screen and screen and solid solid label label label label label label solid solid screen and solid solid solid screen and screen and screen and screen and screen and screen and screen and screen and screen and screen and screen and screen and only screen and source for deals not article you requested has either been moved or removed from the the global object form the can the format of be changed server version sure all the dimensions are setup and correct is part of an international media group and leading digital our corporate and conditions policy policy with us rights and company registration number symbol symbol symbol symbol symbol el read article shared article link require function new else else else if else'
+tp43
+sg9
+g10
+(g12
+S'\r\x00\x00\x00\x00\x00\x00\x00'
+tRp44
+sg14
+VBest phone 2016: the 10 top smartphones we've tested ...
+p45
+sa(dp46
+g3
+Vhttps://www.verizonwireless.com/smartphones
+p47
+sg5
+VWhether you're a mobile-tech expert, novice or somewhere in between, Verizon has a wide selection of smartphones. Find the perfect smartphone for you.
+p48
+sg7
+(g47
+S'is unavailable to arrow keys to access and this may require a mode change function is temporarily unavailable the explore some of our products and a selection of all devices and plans are available for purchase at this alternate a'
+tp49
+sg9
+g10
+(g12
+S'\x01\x00\x00\x00\x00\x00\x00\x00'
+tRp50
+sg14
+VSmartphones | Verizon Wireless
+p51
+sa(dp52
+g3
+Vwww.computerworld.com/category/smartphones
+p53
+sg5
+VSmartphones news, trends, analysis and practical advice ... 53% off WizGear Universal Air Vent Magnetic Car Mount Holder with Fast Swift-Snap Technology for ...
+p54
+sg7
+(g53
+S'use use use use use use use use in adding bidding to customize your with free tools are the latest going to liberate you from the bottleneck around your files is key to kernel security for identity management top security nightmares for for you of of of as a analysis and practical advice phone highlights common security dilemma the lack of physical buttons on the could be an issue earnings surge on reported significantly higher revenue for the fourth quarter of on the back of increased mobile and video will post sales gains next ending a slump next week is expected to report a return to growth after a three quarters of sluggish paper will help you sort through your device and solution options to arrive at the right choice for your useful you probably using easily overlooked are all made by and all worth your plays with latest phones the and the but offer a lot of good tech for less video gives good value for the price may not be but it offers a large display and a lot of good tech for less plans for manufacturing in gain momentum plans to manufacture in made headway on with executives of the company presenting their detailed plans to the federal paper will help you sort through your device and solution options to arrive at the right choice for your gets profit jump despite debacle said its profit rose almost percent in despite nearly flat sales and the costly recall of the blames batteries from two makers for explosions blamed batteries supplied by two manufacturers for the overheating and even explosions of some as it tried to provide a long due explanation for the issues surrounding the sues over patent licensing and in payments nasty spat between and broke into public view when the maker accused the chip supplier of charging licensing fees for its cellular puts blame on battery suppliers for fires prepares to release the results of its investigation into the a new report says the battery itself was the the power of personal with are more mobile and than and while this increases it can also raise unique obstacles for accounts for bigger piece of pie buyers significantly shifted purchase preference to the larger in a research analyst said phone replaced with more secure device has turned over the phone he used for tweeting and will use a more secure phone with encryption capabilities that was approved by the according to news off with for is a magnetic holder for is a very slim mount which it goes into the air vent of your which will not take away your windshield could complete grand plan the closely controlled phone program reportedly coming to the missing piece of the puzzle may finally be for in this checklist on tips for driving user adoption to see where you video blocking and the offers this brief overview of how the addressed concerns over hotels and other venues blocking signals from customers using mobile hot instead directing them to more expensive thanks to rain on the futuristic but despite what are about to tell all flowers and hits for chip tactics some phone makers into accepting unfavorable technology licensing terms while giving a break in exchange for the has phones could get with new provider wants to bring to for reason behind the fires comes as no surprise real challenge new phones have personalized and a second screen to a on from with and to and has a powerful bonus feature hidden in plain sight important things to know about phone and is the best yet of in at intelligence to outsmart of us of at the descend info to ad will close in to site function media media brand media in setting in in fired'
+tp55
+sg9
+g10
+(g12
+S'\x0f\x00\x00\x00\x00\x00\x00\x00'
+tRp56
+sg14
+VSmartphones | Computerworld
+p57
+sa(dp58
+g3
+g35
+sg5
+g36
+sg7
+(g35
+S'solid solid only screen and only screen and enable new search experience requires to be enable on your then try to main by your search in to bid or list list lists history searches elm false unlocked android galaxy one galaxy under the you may not use this file except in compliance with the may obtain a copy of the at required by applicable law or agreed to in software distributed under the is distributed on an either express or the for the specific language governing permissions and limitations under the deals and best selling products for ads ending soonest newly listed lowest first highest first nearest first view results for to get alerts and updates on your to stop getting updates on your now following in your will receive alerts for new send me this search in search results by to sold services and international tracking provided bids more like this services and international tracking provided sold more like this services and international tracking provided to sold services and international tracking provided sold services and international tracking provided to international shipping watching off sold services and international tracking provided to international shipping sold to sold services and international tracking provided to sold services and international tracking provided sold services and international tracking provided to sold more like this services and international tracking provided to watching sold off services and international tracking provided sold more like this services and international tracking provided at sold more like this services and international tracking provided sold services and international tracking provided to sold more like this to international shipping watching off sold more like this services and international tracking provided international shipping sold sold more like this sold services and international tracking provided more like this services and international tracking provided to international shipping off to sold services and international tracking provided by sold off to international shipping watching at watching more like this services and international tracking provided to sold services and international tracking provided international shipping sold more like this finger to international shipping watching off watching more like this services and international tracking provided to international shipping watching sold more like this services and international tracking provided to watching more like this to international shipping off condition condition to international shipping watching off to international shipping watching services and international tracking provided to international shipping watching watching more like this services and international tracking provided watching more like this on to watching international shipping to sold to international shipping sold sold to sold more like this sold more like this services and international tracking provided by us what you think per for search results determines this price through a machine learned model of the sale prices within the last determines trending price through a machine learned model of the product sale prices within the last refers to a undamaged and refers to an item that has been used with highest buyer money in a business day with with highest buyer money in a business day with refinements more see see see see see see see see see edge see see or see see see see other refurbished refurbished parts or not working enter a minimum maximum price before minimum price to maximum price see see see international shipping only see only accepted listings listings site navigation and about pricing page was last of bids and bid amounts may be slightly out of each listing for international shipping options and if in for new this this this new will be sent for this have reached the maximum number of saved we encountered an internal try again your enter a valid new item is on your new new more fewer or other other parts or not parts or not maximum minimum minimum maximum price international international content to close selected additional additional return'
+tp59
+sg9
+g10
+(g12
+S'\t\x00\x00\x00\x00\x00\x00\x00'
+tRp60
+sg14
+Vsmartphone | eBay_
+p61
+sa(dp62
+g3
+Vwww.ebay.com/sch/i.html?_nkw=smartphones
+p63
+sg5
+VFind great deals on eBay for smartphones and verizon smartphones. Shop with confidence.
+p64
+sg7
+(g63
+S'solid solid only screen and only screen and enable new search experience requires to be enable on your then try to main by your search in to bid or list list lists history searches elm false unlocked galaxy one smart phone unlocked galaxy under the you may not use this file except in compliance with the may obtain a copy of the at required by applicable law or agreed to in software distributed under the is distributed on an either express or the for the specific language governing permissions and limitations under the deals and best selling products for ads ending soonest newly listed lowest first highest first nearest first view results for to get alerts and updates on your to stop getting updates on your now following in your will receive alerts for new send me this search in search results by sold more like this services and international tracking provided to sold services and international tracking provided listing straight talk or more like this services and international tracking provided international shipping sold international shipping off sold services and international tracking provided bids more like this services and international tracking provided sold services and international tracking provided to sold services and international tracking provided at international shipping watching more like this more like this services and international tracking provided more like this services and international tracking provided watching more like this services and international tracking provided to international shipping sold to international shipping off to sold more like this services and international tracking provided sold services and international tracking provided at watching more like this services and international tracking provided to sold sold more like this at watching more like this services and international tracking provided at sold more like this services and international tracking provided international shipping watching off international shipping watching services and international tracking provided to sold services and international tracking provided to sold services and international tracking provided to international shipping watching sold more like this services and international tracking provided watching more like this services and international tracking provided sold services and international tracking provided international shipping sold off services and international tracking provided sold services and international tracking provided to sold services and international tracking provided sold more like this services and international tracking provided condition condition to international shipping watching off at watching more like this services and international tracking provided sold more like this services and international tracking provided more like this services and international tracking provided to international shipping watching finger to international shipping watching off sold more like this services and international tracking provided international shipping sold sold more like this services and international tracking provided watching to sold services and international tracking provided lite international shipping watching in sold sold more like this services and international tracking provided sold more like this services and international tracking provided to international shipping watching to watching more like this international shipping international shipping watching off by us what you think per for search results determines this price through a machine learned model of the sale prices within the last determines trending price through a machine learned model of the product sale prices within the last refers to a undamaged and refers to an item that has been used with highest buyer money in a business day with with highest buyer money in a business day with refinements more see see see see see see see see see see edge see see see see see other refurbished refurbished parts or not working enter a minimum maximum price before minimum price to maximum price see see see international shipping only see only accepted listings listings site navigation and about pricing page was last of bids and bid amounts may be slightly out of each listing for international shipping options and if in for new this this this new will be sent for this have reached the maximum number of saved we encountered an internal try again your enter a valid new item is on your new new more fewer other other parts or not parts or not maximum minimum minimum maximum price international international content to close selected additional additional return'
+tp65
+sg9
+g10
+(g12
+S'\x13\x00\x00\x00\x00\x00\x00\x00'
+tRp66
+sg14
+Vsmartphones | eBay
+p67
+sa(dp68
+g3
+Vhttps://www.android.com
+p69
+sg5
+VSee what's new with Android - from phones to watches and more. Visit the official site to explore and learn.
+p70
+sg7
+(g69
+S"new with from phones to watches and the official site to explore and new new to content a the world most popular mobile operating the previous and next as well as the keyboard to change the displayed latest version of is here with sweet features never seen before on the is better when we're different the video no limits comes with unlimited more world most popular mobile phones and watches to cars and your digital life with anywhere on can anticipate your needs in the a simple get an instant shortcut to just the right answers at exactly the right phones world at a glance an you can read and respond to even when your phone with with it you ll always see important info like calls and from work to fun in an tablets make it easy to tablets the playing field your entertainment experience so that you can enjoy more and browse that moves you is designed with the driving environment in from to voice compatible cars get over million to choose you can make your device a one of a a selection of applications that you can use to make your auto console and television the previous and next as well as the keyboard to change the displayed popular featured all devices the auto consoles and televisions that you can use to your digital the previous and next as well as the keyboard to change the displayed by all phones for all wear all tablets all all auto in real life and ways to get the most out of your device by the hassle out of buying games and more your inner photo without the work check with watch manufacturer to see if is supported on your developer resources for a features and devices may not be available in all these carousel the previous and next as well as the keyboard to change the displayed"
+tp71
+sg9
+g10
+(g12
+S'\x1b\x00\x00\x00\x00\x00\x00\x00'
+tRp72
+sg14
+VAndroid - Official Site
+p73
+sa(dp74
+g3
+Vwww.webopedia.com/DidYouKnow/Hardware_Software/smartphone_cell...
+p75
+sg5
+VWhat Is a Smartphone? A smartphone is considered to be the combination of the traditional PDA and cellular phone, with a bigger focus on the cellular phone part.
+p76
+sg7
+(g75
+S"function the dimensions of the size desktop version version landscape mode portrait mode the page first loads the browser changes size nothing we do have over other to the right one by using the search bar or the menu no us what we're missing on or by at"
+tp77
+sg9
+g10
+(g12
+S'C\x00\x00\x00\x00\x00\x00\x00'
+tRp78
+sg14
+VThe Difference Between a Cell Phone, Smartphone and PDA
+p79
+sa(dp80
+g3
+Vus.blackberry.com/smartphones.html
+p81
+sg5
+VThis website uses cookies. By continuing to browse this site you are agreeing to our use of cookies. Find out more on our . Close
+p82
+sg7
+(g81
+S'if else new a a uses continuing to browse this site you are agreeing to our use of out more on our block must be enabled to use this enable in your browser and refresh the for legacy pages left left inset inset inset solid padding function link arrow if else to for for by issues that need to be moved to main for for and for for for your styles a solid bold for legacy pages left left inset inset inset solid padding function link arrow if else to for for by issues that need to be moved to main for for and for for for your styles a solid bold overrides for sticky a overrides for sticky baseline none none none underline underline a by by by us rights'
+tp83
+sg9
+g10
+(g12
+S'\x17\x00\x00\x00\x00\x00\x00\x00'
+tRp84
+sg14
+VBlackBerry Smartphones - United States
+p85
+sa(dp86
+g3
+Vwww.toptenreviews.com/mobile/phones/best-smartphones/mobile
+p87
+sg5
+VHow We Tested the Smartphones. Whenever a major manufacturer comes out with a new smartphone, we put it through its paces with an intense sequence of performance ...
+p88
+sg7
+(g87
+S'function if may give each page an identifying and channel on the next in status ga el if if left if of the biggest manufacturer in the today announced a full recall of the its latest for having difficulty securing a business credit then probably not your card to about to are times when a credit card cut may need to pay tuition or have major repairs done to your my husband was assigned to the we purchased a wonderful home in were to some businesses go to banks to get loans or turn to funding campaigns to bankroll their business to a a business credit card is a great way to separate your personal finances from your for survive in competitive every modern business needs to accept credit the most common you peruse any drug store or likely find a display full of gift cards and prepaid credit a tuition prices continue to so do popularity of student loans and the amounts people are you for for a credit card is an intimidating especially if you are a college student looking for a if function protocol protocol the with our of and function due to passing by reference in a bad we are doing a scope if if in axel axel'
+tp89
+sg9
+g10
+(g12
+S'*\x00\x00\x00\x00\x00\x00\x00'
+tRp90
+sg14
+VTop 10 Smartphones of 2015 | Top Ten Reviews
+p91
+sa(dp92
+g3
+Vhttps://www.google.com/phone
+p93
+sg5
+VIt has the highest rated smartphone camera. Ever. A battery that lasts all day. Unlimited storage for all your photos and videos. And it\u2019s the first phone with the ...
+p94
+sg7
+(g93
+S"by by new new reality devices now specs reality devices by has the highest rated battery that lasts all storage for all your photos and it the first phone with the built video best phone on the truly might just be the best phone we've seen in first phone with the built answers everyday tasks photos fast on the go tabs on travel answers out when local places if still going to rain on and if your team won last everyday tasks an set a and text your friend the photos fast your memories from last or quickly find the that you took last on the go the word or phrase you need in tabs on travel if your on look up your itinerary and find the address of your highest rated a camera lets you take brilliant photos in low bright light or any in crisp pixels great shots in any aperture even storage for all your photos and goodbye to those storage is full closest you can video call with friends and family on experience made by combines hardware and software made by including all your favorite to bring you a and seamless smooth surfaces and curved fast with your phone and swipe down on the fingerprint sensor for quick access to all your cinematic brilliant with true blacks and million battery that lasts all and charges up to hours of battery life in just easier than ever to your or device to your new with the in into your account on your or create a new what you want to like calendar and sit back and let do the more it from a with a matching live wallpaper or one designed with and grab the by built for protection and featuring a range of bold for cases that gets millions of songs for any mood or with recommendations powered by months of with your new or or now to know inside and specs how easy it is to more by help from a more the most of your more in the me updated about devices from and all the things that you can do with be in touch of union land fields are there was an error submitting the submitting your you agree to receive information about devices from a us on a test from is a registered trademark of backups for photos and videos taken with your rates may with and up and and connection caller and recipient require use statistics are approximate and represent a mixed use of web and other according to an average user profile as defined by that involve an active display or data usage will use battery more actual results may rates are based on use of the included with and up and and month trial promotional offer is only open to residents in and who purchase and activate a between and only available to customers who are not current have not been subscribers nor participated in a trial in the past activate the open the app on your must be redeemed by midnight on form of payment required at but will not be charged until the trial period the end of the trial you will be automatically charged the standard subscription currently in the in per month in in and per month in per can cancel your trial at no charge at any time before the trial is requires a terms connection is currently available in on and will be coming soon to other including over the course of the next"
+tp95
+sg9
+g10
+(g12
+S'\x1a\x00\x00\x00\x00\x00\x00\x00'
+tRp96
+sg14
+VPixel, Phone by Google \u2013 Made by Google
+p97
+sa(dp98
+g3
+Vwww.faa.gov/uas/where_to_fly/b4ufly
+p99
+sg5
+VB4UFLY is available for free download in the App Store for iOS and Google Play store for Android. B4UFLY is an easy-to-use smartphone app that helps unmanned aircraft ...
+p100
+sg7
+(g99
+S'to page content for and and and to to on on on is available for free download in the for and store for is an app that helps unmanned aircraft operators determine whether there are any restrictions or requirements in effect at the location where they want to features of the app clear indicator that immediately informs the operator about the current or planned it shows flying in the around is on the parameters that drive the status indicator for future flights in different locations interactive maps with filtering options to other resources and regulatory information more view the on the images below to view larger the of the your a pilot a an the to and an a or in last for of page feed stream channel profile feed of about files of of page was originally published document ready of default settings end ready'
+tp101
+sg9
+g10
+(g12
+S'O\x00\x00\x00\x00\x00\x00\x00'
+tRp102
+sg14
+VB4UFLY Smartphone App
+p103
+sa(dp104
+g3
+Vwww.pcmag.com/reviews/cell-phones
+p105
+sg5
+VLatest cell phone & smartphone reviews, specifications, head to head matchup, price comparisons, editor's and user's ratings from PCMag.com.
+p106
+sg7
+(g105
+S"new find module domain if if if if if if if ga span a solid solid solid outside none solid only screen and body body a none auto only screen and only screen and only screen and only screen and only screen and and fix body now fix on overflow fix body body body body body body body body body body body body body body body body body body fix all if if if name of is function options mode mode while function if return hashes for hash return function if return function return function for id in function if values function if values undefined function if values if function for index in if if complete from hidden function if longer true longer if in else if in else if in else if in and else if in else set the initial state only if browser supports the if return function if return if if return return beginning if if ga ga if true true true true true true true true true true true return with ad disable if id id id id id id id function return units shorten return return if return else if return else if return else return return return if if if if if delete delete for in if if else bidders if if top or bottom boards if else if if if else if else if if else if return return if true if if if for property in if if else if function solid site has failed to render properly due to an issue encountered with a you are is el else new function if function new name function name if offset if offset end if end return export to global redirect to digital edition ad true if not if clicked button thanks if not referrer only screen and header a only screen and and header a only screen and and header header header true to a on to a to to to to to an to an to a to to to on to a to and to to of of of is of of of for of of of to of of of for to of of of for for for print out latest reviews of a a test and rate hundreds of mobile phones each are the best you can get right buying your next find out which carrier has the fastest data network near greatest thing about mobile choice of handsets on all the major wireless are the best you can buy right you want to make calls while driving or just need your hands for other get more of and of more as more as more more more excellent at unlocked balances a premium powerful and unique features with an affordable making it a solid buy as long as you can look past its fair at for is a relatively affordable phone with a nice but held back by underpowered excellent at unlocked phone offers a lot of bang for your besting last year's model in just about every fair at is an affordable phone with a decent but held back by slow performance and a dim good at is a relatively compact phone that gets you solid overall performance at an affordable good at is a relatively affordable boasting useful stylus good battery and a set of features uncommon to midrange good at unlocked phone offers a premium build and good specs for a relatively affordable but is held back by a heavy custom layer geared toward selling you the video streaming good at unlocked serves as more of a showcase for than a case for augmented but the future looks and the phone is solid in its own good at unlocked lower price comes at the cost of significantly pared down a decent midrange but the is a better good at affordable brings the flip design into the to top if try catch should be if if if if for of the in the in and of of to if if if button link link margin fix a to open as run return several helper functions to create a random value with prefix string name boolean rand string name return false the string to open boolean the simple boolean if try if options create from parent context if if classic used for try catch else for chrome with if try catch return cookies in document function true if true expires new footer a of and are among the federally registered trademarks of and may not be used by third parties without explicit sections sections authors function unused if if if else if if if if function function if if function function screen and screen and"
+tp107
+sg9
+g10
+(g12
+S'7\x00\x00\x00\x00\x00\x00\x00'
+tRp108
+sg14
+VCell Phone Reviews | Cell Phones Review | PCMag.com
+p109
+sa(dp110
+g3
+Vwww.bk.com/android
+p111
+sg5
+VTo celebrate the release of the new BURGER KING ® App for Android\u2122 we have a FREE Android\u2122 smartphone offer. Pick a phone, with a new or upgrade 2 year ...
+p112
+sg7
+(g111
+S'the document domain snipper to main content the newsletter up the celebrate the release of the new for we have a a with a new or upgrade year activation and start redeeming your offers in the out the phones be the king of savings the phone offer is only available with select service data and features and a new subscriber valid for primary and secondary lines is subject to eligibility and may require a renewal and upgrade options may also be available for existing eligible however price may may not be available in all markets or on all wireless early termination and additional restrictions are required to pay regulatory fees and applicable sales taxes based on their be or older to where restricted or prohibited by valid with any other offer or for business time offer that is subject to change and only valid in the full offer for to'
+tp113
+sg9
+g10
+(g12
+S'Q\x00\x00\x00\x00\x00\x00\x00'
+tRp114
+sg14
+VAndroid | BURGER KING®
+p115
+sa(dp116
+g3
+Vwww.trustedreviews.com/best-smartphone_round-up
+p117
+sg5
+VOur best smartphone round-up includes only the very best mobile phones right now. If you're looking for a new phone then it's in this list somewhere.
+p118
+sg7
+(g117
+S"new error with no additional new in in in in in new function function return in targeting stuff else from pages if appliances and and by shares a page best includes only the very best mobile phones right looking for a new phone then in this list was a though not quite great year for failed to see huge gains in battery life and the headphone jack made an unnecessary but we did see the addition of improved virtual reality support and some exceptional lead the way with its which we voted as of the while came in close second with the departure from the line did see a price but its fantastic camera and unbeatable software made it a to have the best but with the anniversary of the iconic coming in we expecting big struggled to make it through the the is still too big considering its screen size and while the cameras are still has plenty of annoying what can we expect for it has already has unveiled the glass and and we just weeks away from based show will likely see the and possibly the and we excited for them our buyers sure where to start in your quest for a new seasoned buyer or are looking to buy your first here are a few pointers to help you get much should you spend on a new flagships seem to be getting more expensive by the laying your hands on a good is actually cheaper than all means splash the cash on a like the or if you want but bear in mind that some crackers like the the cost a fraction of the price and are brilliant phones in their own also worth considering last year's top and now available for much less and are better than many new size should you mobiles are very much in demand these with even embracing measuring in at inches and above can be considered as and are usually blessed with excellent displays that are great for watching videos and playing games between and inches is more practical for fingers and while still good for browsing the gaming and are ideal for children and users who fussed about games and unsure best for then a is a good size for most things to might consider extra features to be like the sprinkles on top of a but they far more important than like card fingerprint scanners and can dramatically affect the overall user experience of a all fingerprint scanners and are quickly becoming only does the former add extra security to your the two combined open up the potential for us when we say paying with your phone using your fingerprint is very offers this vs vs is world is notoriously with on one end of the spectrum and on the smaller has similarly militant supporters who don yet have a collective and you should ignore all of explained the main advantages and disadvantages of each of the three main mobile operating systems an if you want a wide range of operating system offers a better balance of variety and than its due to the sheer diversity of a phone to suit any desire or budget and even the flagship ones are often much cheaper than has the largest selection of and games but there a lot of rubbish mixed in with the good it a great operating system and it certainly the best option if you rather not spend big money on a shiny new an if you value are some of the most expensive you can and the will still set you back a fair amount design is always the are great and very easy to quite as populated as but its restrictions are meaning that the overall quality of games and is higher than what you ll find on also a great option if you own other like and as the tightly integrated services make life sam pm has a major flaw that they are trying to cover screens tend to develop a crack for no apparent reason rendering the phone happened to me twice and a little search on the reveals it to be a problem with their entire galaxy pm at and at somebody needs to lay off whiskey pm can expect that the lava mobile will come in this category very soon because it has launched very good smarts phone with latest am think galaxy should be at mobile is best for me when it comes its is right you must include pm anyone had problems with their mine freezes and so does my am feel phones are over should be in top top mobile phones am good info am bottom line is how many units of a model a company don't sell and why the company is bad ass pm this is bad coming from me you am including is not best and keyboard for or what you use you will buy am about the way better than the and of course much better than the am seems suspiciously like a traffic baiting article totally understand the needs for page views to boost revenue and like the idea of this article have been more interesting if this was a comparison based review rather than at read our existing pm wonder if the and the were have a nexus but have to admit that really like sad we never got to see a think goes another way and seems that are realizing that software is as important not more than specs on higher end am come always goes to great lengths to exclude really interesting new technology in year it was and this year it is pm was an innovative camera"
+tp119
+sg9
+g10
+(g12
+S'M\x00\x00\x00\x00\x00\x00\x00'
+tRp120
+sg14
+V12 Best Smartphones & Mobile Phones in 2017
+p121
+sa(dp122
+g3
+Vwww.webopedia.com/TERM/S/smartphone.html
+p123
+sg5
+VSmartphones are a handheld device that integrates mobile phone capabilities with the more common features of a handheld computer or PDA.
+p124
+sg7
+(g123
+S'is null el false if where try doc dom doc personal digital assistant mobile security are a device that integrates mobile phone capabilities with the more common features of a computer or allow users to store install along with using a mobile phone in one example a could be a mobile phone with some functions integrated into the or vise function on call for registration origin tracking function object for if else else function function reg return else return function function return up to date on the latest developments in terminology with a free weekly newsletter from to subscribe in the everything in touches on so many other like cars and and and the of in organizations rush to release new security appears to be getting short is a new approach that holds to reviews five easy editorial tips to help drive organic search engine including the page is a programming guide describes the basics of providing an overview of data types second describes the basics of providing an overview of modifiers and control of the model defines a networking framework to implement protocols in seven this handy guide to function size desktop version version landscape mode portrait mode the page first loads the browser changes size media queries seem to be applied sometime after the and before the you are using the you should call it again after the page is finished function'
+tp125
+sg9
+g10
+(g12
+S'8\x00\x00\x00\x00\x00\x00\x00'
+tRp126
+sg14
+VWhat is Smartphone? Webopedia Definition
+p127
+sa(dp128
+g3
+Vwww.digitaltrends.com/cell-phone-reviews
+p129
+sg5
+VPhone Reviews Share. The best smartphone you can buy The best phablet you can buy The best cheap smartphone you can buy Editors' Choice We review hundreds ...
+p130
+sg7
+(g129
+S'check query for if undefined if else if else if else if else if if try for new else try for old new if gads node node options and mobile phone reviews on the most popular cell reviews of the most popular cell and mobile phone reviews on the most popular cell get function key key group group if if return return set function key key group group data data if if del function key key group group if if function not track views for sticky related video if item req if if request else attachment id to new if if if if if if if if if if new with of of and text classes if date if thumb else thumb title if date date if score score score items items items items items this visit courtesy to is this is this noticed you are using an understand that you may have many reasons for blocking our the same we need to keep the lights on so we can keep bringing you great promotional consideration by allows us to avoid tactics that we totally comfortable like blocking our are some other ways you can disabling your ad the our our content on your to see less your visit to without further best you can buy best you can buy best cheap you can buy review hundreds of products in a wide range of categories each the best of the best in review has replaced the with the complete with the new processor costs a little more than so we found out if it worth the review review review review reviews out of to to recording display and moisture resistant storage camera support keyboard system size in in in in in in in in palm camera performer display and design price is frustrating could be better carrier support compact body camera and improved software processor battery release date yet design body sensor is fast price point at mode improves photos rear cameras battery life the latest version of carrier support metal design specs display with vibrant colors performance disappoints much updates unclear expensive demure style cam and related software rear camera of date software software camera display has tracking problems battery life design to use software design performance display camera speed from chip cameras metal body experience with regular updates fast charging battery software issues need fixing product reliable technology and tools to navigate the digital rights id id id title title title thumb thumb thumb id if title if thumb title title title author author author date date date plural if if plural title if author if date label label label text text text label text we we our review scores running best you can best you can best cheap you can series to the under with the best laptop you can buy is still take computing to the streets without breaking the only one review on to your are the fastest cars in the most expensive cars in the world make look like first perfect rides for new for and favorite games that you can play right best games you can buy right underdogs of best games on display this buying everything to know before you buy a cheap tablets best you can pavement to a soundtrack with the best running outrageous headphones that will blow your and your the most out of photography with the best your most epic thrills and spills with the best action cameras that make your look best desktop you can best monitor you can sound surround sound formats to buy speakers like a guide to home speakers under refrigerator you need to know about buying a washer and best refrigerator you can away that sponge and let one of our favorite dishwashers do the with best you can best smart jewelry you can running of blending million processors are recalled for broken new on and leaving in we know so tips and tricks will help you make the most of your is an essential part of a balanced you need to know about out of the best cases and covers for your shiny new is proof your mouse is holding you is one console you can take everywhere what you need the best laptop you can buy is still is an essential part of a balanced competitors are a bet on the power of new on and leaving in we know so is an essential part of a balanced is now and even its creators know coming is one console you can take everywhere what you need will use competition to raise health care new and different gaming worlds with of the best the inside of your car goes from clay to leather and stainless will put the on steroids to steal the will against inconsiderate pits its race truck against race find its had to look back to its digital photography reinvented itself to become better than off everyone on your gift list with gadgets under on a all the best tech you can snag for or blending million processors are recalled for broken holographic virtual girl lives inside answer to the off everyone on your gift list with gadgets under you need to know about fight trainer explains how he made brawls so new on and leaving in we know so off everyone on your gift list with gadgets under legends have mastered format outpaces digital downloads in songs you need to stream this and absent for sends acceptan'
+tp131
+sg9
+g10
+(g12
+S'a\x00\x00\x00\x00\x00\x00\x00'
+tRp132
+sg14
+VPhone Reviews | Digital Trends
+p133
+sa(dp134
+g3
+Vwww.idc.com/prodserv/smartphone-os-market-share.jsp
+p135
+sg5
+VAndroid dominated the smartphone market with a share of 86.8%. Samsung, the #1 contributor remained in the top spot, despite the high-profile recall of the Galaxy ...
+p136
+sg7
+(g135
+S'region topic new worldwide market grew year over year in with million according to data from the grew compared to the million units in the second quarter of expects to see a noticeable slowdown in shipments in with showing a more mature growth dominated the market with share in continued its global leadership despite the and paste in your are hidden due to your the button above the top right corner of the table to customize displayed dominated the market with a share of the contributor remained in the top despite the recall of the share has risen both and with strong growth in unit shipments by other players such as and quarter launch highlights included and as well as and saw its market share for grow by with million followed by its newest the were the models this and along with its older models accounted for of the total shipments this experienced a decline of with a total of thousand units shipped this focus on business the decline in the consumer market is expected to center a none and to at a of to in the as in the to to in for as to and and to data you for contacting excluding fields not labeled are our privacy response this this this function return rights'
+tp137
+sg9
+g10
+(g12
+S']\x00\x00\x00\x00\x00\x00\x00'
+tRp138
+sg14
+VIDC: Smartphone OS Market Share 2016, 2015
+p139
+sa(dp140
+g3
+Vhttps://www.wired.com/2015/07/commodore-smartphone
+p141
+sg5
+VThe new Commodore Pet smartphone is arriving in Europe this week. Skip to: Start of article Visually Open Nav. Go to Wired Home Page. Commodore Is Back, Baby, With a \u2026
+p142
+sg7
+(g141
+S'a and none none none a of article to a subscribe culture transportation photo video to now to get months for plus a biggest delivered to your hours physics of a tennis ball spin miss our latest features and inspiring miss out on latest of of of of of of am a the name that helped usher in the is a those of you too young to was a hot company in the was a leader in personal shipping thousands of has named it the single computer ever the company sold as many as million of them and the brand name is still widely the company went bankrupt in and the brand saw several fuzzy changes of trademark ownership over the it appearing on a created by a pair of called the sharing its name with other iconic and its custom build includes two emulators so owners can enjoy old and have swirled around the phone for driven in part by design renders published its release met with the guys behind it and tried out a the biggest how a company that folded two decades ago can release a new a strange founded in in launching the in and following up with the and he company slowly withered and folded in buyer snapped up its including patents related to the company but the trademark changed hands several the conglomerate that owned the rights to it filed for and the name bounced around some going through two more years a federal court ruled that the trademark belonged to a company that has been silent ever where things stood until when and registered in the entrepreneurs claim to have acquired rights for the brand and trademark in the mobile industry in including the the first time has risen from the years an company called released the an sporting an of up to of and a and retro gaming and shut down in the new is an phone of rather common is with an aluminum frame and interchangeable shell displays a big and a smaller one could replace the home button below the pixel resolution display made of phone will feature a processor with and a huge main camera uses a sensor with a bright can make images up to and videos up to front camera is an rig with an wide angle can be operated with the dedicated shutter button on the right side of the has custom functions spotted include a nice implementation of feature that lets you chose what information appears on the display during and system gestures that let you interact with the phone by shaking flipping or waving at of course there will be a guest in nostalgia is not the core of the there is of course room for retro runs a custom version of and two finished on the prototype but told they ll be customized versions of the emulator and the team also is working with unnamed software houses to bring some of the best games on the before it launches later this week across the should come in two different a light one around with of storage and of and a regular one around with of internal memory and of will have a card included though the dedicated slot will support cards up to can choose a or classic though told and other colors might be the will be available in and with plans to add more countries in and in the near an niche but at the very least proves that technological nostalgia is an incredible and very cool to of to the hours to and to and hours to xx to to xx to days days to to a security news this week a hours on by for the of the on by for the of the hours a at on a at on comments a function currently supported fires when everything is fires when a new comment is fires when user is authenticated if to and hours product review days consumer tech to the the to consumer tech in hours now to get months for plus a biggest delivered to your hours physics of a tennis ball spin miss our latest features and inspiring miss out on latest biggest delivered to your hours physics of a tennis ball spin miss our latest features and inspiring miss out on latest get what you here ads help us keep the lights add us to your ad blocker or pay per week for an version of you are supporting our really appreciate a in of us at appreciate your of this site constitutes acceptance of our user agreement and privacy policy link privacy material on this site may not be cached or otherwise except with the prior written permission of nodes for if if else function a false if relative the name that helped usher in the is a those of you too young to was a hot company in the was a leader in personal shipping thousands of has named it the single company sold as many as million of the brand name is still widely the company went bankrupt in and the brand saw several fuzzy changes of trademark ownership over the appearing on a created by a pair of called the its name with iconic its custom build includes two emulators so owners can enjoy old and have swirled around the phone for driven in part by design renders its release met with the guys behind it and tried out a the biggest how a company that folded two decades ago can release a new a strange founded in in launching the in and following up with the and company slowly withered and folded '
+tp143
+sg9
+g10
+(g12
+S'[\x00\x00\x00\x00\x00\x00\x00'
+tRp144
+sg14
+VCommodore Is Back, Baby, With a \u2026 Smartphone? | WIRED
+p145
+sa(dp146
+g3
+Vwww.otterbox.com
+p147
+sg5
+VShop Authentic OtterBox Tablet and Phone Cases from the #1 Most Trusted Brand in Smartphone Protection. Get protection that inspires confidence with OtterBox cases!
+p148
+sg7
+(g147
+S'element shiv if if context function ca while if else if function return function return solid transparent transparent transparent transparent transparent transparent transparent transparent solid solid transparent form button button solid transparent body and solid transparent transparent transparent transparent transparent transparent transparent transparent transparent transparent solid solid solid solid solid solid and and solid solid screen and solid screen and screen and screen and screen and screen and screen and screen and screen and screen and screen and screen and screen and solid solid solid screen and screen and screen and and screen and solid solid solid solid screen and screen and solid solid solid solid screen and ease ease ease screen and screen and solid solid on orders over uses cookies so we can provide you with the best user to selling case in north body header transparent white transparent body header body header body header body header body header a body header a us warranty customer support contact us shipping information returns by mini mini mini mini mini display mini mini mini mini mini display edge edge edge edge to brands to brands lite to brands to brands to brands to brands to brands inch functionality is turned turn it on so that you can experience the full capabilities of this right right cover right and auto center cover center cover center cover none block and center center and center and and none and and and center and and other styling span span solid auto solid auto header span span span span ellipse ellipse ellipse center center ellipse at ellipse ellipse ellipse center center ellipse at solid strong for your for case with genuine leather help finding the perfect a a device is a a a care the most that it a going to love start again your next order when you sign return the the first to know up to receive social promotions for signing up enter a valid address error occurred the conversation delegated event handlers to footer form data if return data if return return the if provide a valid else if went through adheres to a strict privacy do not sell or otherwise disclose our else provide a valid adheres to a strict privacy do not sell or otherwise disclose our terms information of terms information shop not an of the first to know up to receive social promotions for signing up enter a valid address error occurred the conversation delegated event handlers to footer form data if return data if return return the if provide a valid else if went through adheres to a strict privacy do not sell or otherwise disclose our else provide a valid adheres to a strict privacy do not sell or otherwise disclose our and for product could not be or more of the products in this set is not colour is notified when back colour is notified when colour is notified when colour is notified when colour has been of of shipment qualifies load credit maximum number of bonus products have been remove one in order to add additional bonus or connection is specify a valid phone address is do not will remove the first product added to that to remove item from to add item to to add item to cart your for the verification current gift certificate balance is can only be purchased with a minimum of and maximum of enter a gift certificate a browser currently is not set to accept turn it on or check if you have another program set to block must agree to the terms and have characters left out of you want to remove this connection expected date is available at a store near enter a valid with preferred to to your quantity specified exceeds our available inventory and has been adjusted field is fix this enter a valid enter a valid enter a valid enter a valid date enter a valid enter only enter a valid credit card enter the same value enter no more than enter at least enter a value between and characters enter a value between and enter a value less than or equal to enter a value greater than or equal to and last name is can not order a with this must have to is enter a valid postal enter no more than enter a valid all your to are available for remaining items are available for remaining items are available on back item is currently not remaining items are currently not adjust the meta in keywords phone case function if else'
+tp149
+sg9
+g10
+(g12
+S'N\x00\x00\x00\x00\x00\x00\x00'
+tRp150
+sg14
+VOtterBox | The #1 Selling Case for Smartphones & Tablets ...
+p151
+sa(dp152
+g3
+V4smartphone.net
+p153
+sg5
+VSmartphone Mobile Solutions for Mobile Professionals by 4Smartphone. Stay connected where ever you are! 4SmartPhone provides seamless mobile solutions for mobile ...
+p154
+sg7
+(g153
+S'as a for for by connected where ever you provides seamless mobile solutions for mobile as well as small and medium sized calendar and tasks stay synchronized whether you access them from your or other enabled make synchronization will never miss another or or spend hours putting contacts back into your mobile solutions will sync data on any device or as well as most or wireless new provides seamless mobile solutions keeping calendar and tasks synchronized your and or other enabled solutions for mobile professionals new solutions for mobile professionals new will never miss another or or spend hours putting contacts back into your phone or synch solutions for mobile professionals new new new as a contacts tasks on any on any network worldwide with and guarantee now offering customers say about our mobile service is simply the best mobile solution on the am constantly in touch with clients in or out of the office on my is a brilliant has saved me so much time and done on a brilliant to the testimonials may we help fill in details and get back to you as soon as guarantee trust availability in backups wipe on demand support phone access scheduling security recovery with by as a'
+tp155
+sg9
+g10
+(g12
+S'X\x00\x00\x00\x00\x00\x00\x00'
+tRp156
+sg14
+VSync as a Service\u2122, Smartphone Mobile Solutions for Mobile ...
+p157
+sa(dp158
+g3
+Vhttps://shopping.yahoo.com/smartphone--shop
+p159
+sg5
+VYahoo! Shopping is the best place to comparison shop for Smartphone. Compare products, compare prices, read reviews and merchant ratings.
+p160
+sg7
+(g159
+S'mail badge search box solid solid none buttons body solid solid and display display only screen and only screen and only screen and only screen and only screen and only screen and table in for de all brands all colors or to top brands for for for for and and and and de de de de top stores out of results for list view grid view to to results from stores from stores to to to to to to to to to to to to from stores to the web for to see your products in with el'
+tp161
+sg9
+g10
+(g12
+S'\x92\x00\x00\x00\x00\x00\x00\x00'
+tRp162
+sg14
+VSmartphone - Cell Phones: Compare Prices, Reviews & Buy ...
+p163
+sa(dp164
+g3
+Vhttps://www.marshallheadphones.com/mh_uk_en/london
+p165
+sg5
+VMarshall Headphones London Smartphone is a mobile phone with loud speakers, with more capability than a feature phone. Buy your smartphones here!
+p166
+sg7
+(g165
+S"in in new new only screen and new new am but we can only process orders with western write your name and address in return return true if self response try response catch if if return if don't use remove on checkout page self buttons if input if else input if self pattern if return new function if if else timeout to not fire before cart is actually replaced disabled seems to be disabled in your must have enabled in your browser to utilize the functionality of this welcome seem to be in to switch to that to in in me have an account up for free new more countries in have no items in your shopping cart new if return return new new are for new might just be the loudest mobile phone on two you can enjoy your music without the use of to cart me when this product is back in stock reviews days shipping to from days shipping to from delivery within shipping to within delivery within if function method method method null else function else return return payments full size images has begun is equipped with dual headphone perfect when you want to share your dual equalizer and a dedicated that gives you quick access to all your music players that we have been with the at in we are not only intrigued we're in this is a classy device with some unique features up its smart leather an no doubt want to test out its musical prowess before you but rest assured that like the best music this phone is very easy to you buy a some will go for or others will say and buy what makes them feel what the singing along to at the top of your voice in your why the hell an the news of debut may be music to your audio and sound which specializes in making speakers and headphones launched a today called the might just be the loudest mobile phone on two you can enjoy your music without the use of for those impromptu also pretty handy when you need to make a group phone we mention it the heart of the is the a dedicated access to your whatever the source of it may to this ingenious bit of you can control your music on top of whatever else you happen to have scroll wheel gives you quick access to volume tactile precision allows you to find that sweet spot of sonic is equipped with not but two stereo jacks allowing you and a friend to plug in and share your music or watch a video sound source has independent volume so you free to kick out the jams while your friend keeps things mellow all about packs a lot of heat under the take for example the smart gives the a separate processor for allowing it to play at a higher resolution means that even the best quality will sound better when played with it lets you play uncompressed music such as cannot be emphasized the is the point in having a great music player if your headphones up to the comes with the highly rated headphones so you can really experience equalizer to rule them one of the profiles or adjust the sound to your liking and save it as a custom will apply your selected profile to whichever music player you the equalizer is quick via the delivers high quality stereo audio over a all in the details included dedicated access to your whatever the source of it may tactile precision allows you to find that sweet spot of sonic new looks run in the has the same as the rest of the which has stood the test of time for over matte black similar to the skin of offers better grip in your details are found on the scroll and both stereo a thing of in is equipped with dual headphone perfect when you want to share your dual equalizer and a dedicated that gives you quick access to all your music players that we have been with the at in we are not only intrigued we're in this is a classy device with some unique features up its smart leather an no doubt want to test out its musical prowess before you but rest assured that like the best music this phone is very easy to you buy a some will go for or others will say and buy what makes them feel what the singing along to at the top of your voice in your why the hell an the news of debut may be music to your audio and sound which specializes in making speakers and headphones launched a today called the often strikes us when we out and which is why comes with a few nifty tools to help you seize the may argue that are the rock stars of the current generation of music that remains to be ignore the fact that is a popular way to enjoy music and connect with is why comes with a app your headphones and sound system into the two stereo launch the app and that launch late comes equipped with dual microphones that are perfect for laying down a few spur of the moment riffs all recorded in glorious reduction means you ll be able to easily hear your even if you recording sound engineers were blown away when this was and we think you will be as on is the is a recorder that allows you to record four tracks offers high quality recording and more please click low latency audio input ensures that music and communication applications provide an amazing in main camera with front with a re"
+tp167
+sg9
+g10
+(g12
+S'\x8b\x00\x00\x00\x00\x00\x00\x00'
+tRp168
+sg14
+VMarshall Headphones Marshall London | Phone, Smartphone
+p169
+sa(dp170
+g3
+g165
+sg5
+g166
+sg7
+(g165
+S"in in new new only screen and new new am but we can only process orders with western write your name and address in return return true if self response try response catch if if return if don't use remove on checkout page self buttons if input if else input if self pattern if return new function if if else timeout to not fire before cart is actually replaced disabled seems to be disabled in your must have enabled in your browser to utilize the functionality of this welcome seem to be in to switch to that to in in me have an account up for free new more countries in have no items in your shopping cart new if return return new new are for new might just be the loudest mobile phone on two you can enjoy your music without the use of to cart me when this product is back in stock reviews days shipping to from days shipping to from delivery within shipping to within delivery within if function method method method null else function else return return payments full size images has begun is equipped with dual headphone perfect when you want to share your dual equalizer and a dedicated that gives you quick access to all your music players that we have been with the at in we are not only intrigued we're in this is a classy device with some unique features up its smart leather an no doubt want to test out its musical prowess before you but rest assured that like the best music this phone is very easy to you buy a some will go for or others will say and buy what makes them feel what the singing along to at the top of your voice in your why the hell an the news of debut may be music to your audio and sound which specializes in making speakers and headphones launched a today called the might just be the loudest mobile phone on two you can enjoy your music without the use of for those impromptu also pretty handy when you need to make a group phone we mention it the heart of the is the a dedicated access to your whatever the source of it may to this ingenious bit of you can control your music on top of whatever else you happen to have scroll wheel gives you quick access to volume tactile precision allows you to find that sweet spot of sonic is equipped with not but two stereo jacks allowing you and a friend to plug in and share your music or watch a video sound source has independent volume so you free to kick out the jams while your friend keeps things mellow all about packs a lot of heat under the take for example the smart gives the a separate processor for allowing it to play at a higher resolution means that even the best quality will sound better when played with it lets you play uncompressed music such as cannot be emphasized the is the point in having a great music player if your headphones up to the comes with the highly rated headphones so you can really experience equalizer to rule them one of the profiles or adjust the sound to your liking and save it as a custom will apply your selected profile to whichever music player you the equalizer is quick via the delivers high quality stereo audio over a all in the details included dedicated access to your whatever the source of it may tactile precision allows you to find that sweet spot of sonic new looks run in the has the same as the rest of the which has stood the test of time for over matte black similar to the skin of offers better grip in your details are found on the scroll and both stereo a thing of in is equipped with dual headphone perfect when you want to share your dual equalizer and a dedicated that gives you quick access to all your music players that we have been with the at in we are not only intrigued we're in this is a classy device with some unique features up its smart leather an no doubt want to test out its musical prowess before you but rest assured that like the best music this phone is very easy to you buy a some will go for or others will say and buy what makes them feel what the singing along to at the top of your voice in your why the hell an the news of debut may be music to your audio and sound which specializes in making speakers and headphones launched a today called the often strikes us when we out and which is why comes with a few nifty tools to help you seize the may argue that are the rock stars of the current generation of music that remains to be ignore the fact that is a popular way to enjoy music and connect with is why comes with a app your headphones and sound system into the two stereo launch the app and that launch late comes equipped with dual microphones that are perfect for laying down a few spur of the moment riffs all recorded in glorious reduction means you ll be able to easily hear your even if you recording sound engineers were blown away when this was and we think you will be as on is the is a recorder that allows you to record four tracks offers high quality recording and more please click low latency audio input ensures that music and communication applications provide an amazing in main camera with front with a re"
+tp171
+sg9
+g10
+(g12
+S'\x8b\x00\x00\x00\x00\x00\x00\x00'
+tRp172
+sg14
+VMarshall Headphones Marshall London | Phone, Smartphone_
+p173
+sa(dp174
+g3
+Vmybestsmartphone.com
+p175
+sg5
+VThe Walton X4 Pro 4G mobile has all the features and the specifications of a powerful smartphone. The Camera, ROM, and battery life are the main highlight of the phone.
+p176
+sg7
+(g175
+S'and in none none none and in to content navigation posts on by mobile has all the features and the specifications of a powerful and battery life are the main highlight of the in a reply in on by already know that is the giant multinational company in the always tried to innovate new technology they coming their new galaxy in a reply to on by to is a new simulation game design and develop by to from play and build your empire one in a reply in on by few days ago mobile announces they release their new were no told when releasing this we know some in in a reply with and on by phone was launched in comes with inches screen with a device powered by in a reply on by coming new android with finger print phone build quality is awesome because it full aluminum magnesium alloy body molded in a classic frame in a reply on by motion video rec inches in a reply reason to buy on by is a awesome coming from call because for affordable price and for big a mid level android in a reply and on by in a reply and on by recently launch new android in its device comes with inches display with pixels device powered by in a reply navigation posts in to in with and and by'
+tp177
+sg9
+g10
+(g12
+S'\x8f\x00\x00\x00\x00\x00\x00\x00'
+tRp178
+sg14
+VmybestSMARTPHONE - Best Smartphone ... - mybesSMARTPHONE.COM
+p179
+sa(dp180
+g3
+Vwww.tomshardware.com/t/smartphones
+p181
+sg5
+VThe latest Smartphones truly do deliver portable computing in the palm of your hand. With so many options to choose from, let Tom's Hardware help you find the perfect ...
+p182
+sg7
+(g181
+S'and new cache yahoo st if if in if find module adonis adonis function return return return else return return else return return else return return else return return else return return tags return tags tags return return else return null delete delete delete new if to true to automatically prompt visitors false to false to hide only screen and new categories sites authority on tech more if if if if if if months ago will be the first to market with a that comes with the in and at of sort by week month year if if if if months ago and is the first to be bundled with a this pair have what it takes to deliver an exceptional mobile by months ago at has the business with the a mobile finalized the bundle and starting and by if if months ago getting a or later this you might be able to use it as a desktop computer at some point in by months ago found out more about how work with the latest by months ago latest phones include which allow you to attach modules to the back of the phone such as a small battery pack or a by months ago flagship and its many oddball accessories and peripherals are coming next by months ago me if you heard this one the modular is the group announced by months ago seeing the beginning of a trend towards dumb clamshell that offer keyboard and support for a connected by months ago bill would allow the police to scan for activity when their owner is involved in a car bill implies by the the to the site us and choices if if function new new new if return target if if if position if else return return else true allows the local notification permission request to appear automatically must have this to use the window will close to chars by default are now subscribed to our may at any if value parts name if return if if false if to is either or function registration event from track if the user otherwise this event will be fired on every page load for a subscribed line up to with the being function function if window function window function function if if if for if code if if else if else found for in if found if else if if if scripts if if ret if for in if if if ret else ret return if return keys macro if win return for in if markup markup if if if content else if for in pixel if if for in pixel if'
+tp183
+sg9
+g10
+(g12
+S'\x8e\x00\x00\x00\x00\x00\x00\x00'
+tRp184
+sg14
+VSmartphones - News, Reviews, Rumors and Benchmarks
+p185
+sa(dp186
+g3
+Vhttps://www.fairphone.com
+p187
+sg5
+VMeet the Fairphone 2. We\u2019ve created the world\u2019s first ethical, modular smartphone. You shouldn\u2019t have to choose between a great phone and a fair supply chain.
+p188
+sg7
+(g187
+S'iv new and and great new new colors for the more phone got a story to tell the created the world first modular have to choose between a great phone and a fair supply the social taken the first steps toward creating a product that puts people can help us to spread the the our community members are supporting our global the community is also available at to order the for your a business we can change the way products are news straight to your twice a contains the logic required to handle powered contents else delay the scroll by milliseconds to fix a bug in chrome for and and where otherwise content on this site is licensed under a and and where otherwise content on this site is licensed under a and and type data try catch function'
+tp189
+sg9
+g10
+(g12
+S'z\x00\x00\x00\x00\x00\x00\x00'
+tRp190
+sg14
+VFairphone
+p191
+sa(dp192
+g3
+Vwww.gsmarena.com/nokia-phones-f-1-10.php
+p193
+sg5
+VSmartphone; Touchscreen; Camera; Bluetooth; Wi-Fi; GPS; Card slot; More filters; Phone finder. Samsung; Apple; Microsoft; Nokia; Sony; LG; HTC; Motorola; Huawei ...
+p194
+sg7
+(g193
+S'uses cookies to ensure you get the best new true function us in with up if new if phones of release slot filters finder brands mill if new if reviews review bright review once again review to review feed version us of use by'
+tp195
+sg9
+g10
+(g12
+S'\x7f\x00\x00\x00\x00\x00\x00\x00'
+tRp196
+sg14
+VNokia smartphones - GSM Arena
+p197
+sa(dp198
+g3
+Vwww.pcworld.com/article/199243
+p199
+sg5
+VAlthough the Pilot wasn't a smartphone, it does deserve credit for popularizing the use of mobile data by enterprise users. After all, what dot-com exec in ...
+p200
+sg7
+(g199
+S'of use use use use use use use use use use use use use use use use use in adding bidding of with more about with with of of larger image been three years since brought the to a mass consumer but have actually been around in one form or another since difference between then and now is that early were primarily used as enterprise devices and were prohibitively expensive for most with the enormous success of the carriers have discovered that they can lock in customers for long periods of time by heavily subsidizing their purchases of the latest and hottest this track the evolution of the from its humble beginnings as a monochrome device to sleek multimedia devices capable of supporting and larger image was the first real attempt by the tech industry to create a type of phone that incorporated voice and data services into one as the device acted as a mobile a and even a fax machine the device even had a that could be used to dial phone making it a true to the that would come years one owner describes it as huge and its original retail price was you wanted a in you were probably better off waiting years and paying for an and larger image the a it does deserve credit for popularizing the use of mobile data by enterprise what exec in the late would dare leave his office without taking his trusty with the device that started it all for the offered users of processing power and a grand total of of memory at a retail price of this may seem laughably overpriced for such a primitive device by at the time the was a device that spawned the entire and larger image where we start to see something that looks somewhat like a modern the still had a screen and no real ability to browse the but it did have a creative keyboard design that served as a model for popular slider such as the and larger image the late company in was mostly known for its pagers that were adopted by tens of millions of users starting in entered the mobile phone market with its a phone with the ability to get and surf the major of the was that you needed to plug in a headset in order to talk on the would not release a proper until the came out in early and larger image was the first released by after it acquired device manufacturer which itself had been started by original founders and which had used operating system as the basis for its particular featured both and models and had of and of processing was popular in its own although its release marked the start of the wane of and larger image more can be said of revolutionary first attempt at cracking the market was a home run that integrated a display with the best experience to yet be offered on a mobile years the is still the device to which all other are and larger image rise is fairly remarkable for an operating system that only just launched in the fall of operating success is even more impressive when you consider that when it debuted it was already facing a crowded field of heavyweights such as the and now mobile operating system has become a major player in the was used on more than of all at the end of more than double its market share from the previous and larger image had been on the market for more than a year before the the was the first major hit for the platform that had enduring brand which was also the first to run on the sold more than million units over its first days on the market and is expected to be followed up by a sequel sometime this and larger image has long been eager to show off the capabilities of its which is currently the fastest wireless network commercially available in the the release of the this finally has a flagship device that will let users take advantage of its addition to its the phone is also notable for its striking physical with a pixel display screen and a weight of device is so big that it even features a kickstand that helps users keep it upright while looking at the and larger image does the future hold for you think new will make new features do you want to add in the coming us know in the keys to the ultimate and ways to put your old phone or tablet to use hottest cars of best paid games of for your new phone with of commas to separate multiple addresses you message has been was an error this to our now using social media to take your comments and more about this ways to put your old phone or tablet to use hottest cars of best paid games of for your new phone function helps you navigate the ecosystem to find the products you want and the advice you need to get the job of at us other with loading with are written and edited by members of our sponsor create an opportunity for an individual sponsor to provide insight and commentary from their directly to our editorial team does not participate in the writing or editing of are written and edited by members of our sponsor create an opportunity for an individual sponsor to provide insight and commentary from their directly to our editorial team does not participate in the writing or editing of fired please th'
+tp201
+sg9
+g10
+(g12
+S'\x94\x00\x00\x00\x00\x00\x00\x00'
+tRp202
+sg14
+VA Brief History of Smartphones | PCWorld
+p203
+sa(dp204
+g3
+g159
+sg5
+g160
+sg7
+(g159
+S'mail badge search box solid solid none buttons body solid solid a span screen and screen and the new cookies if if if if new if if if and display display only screen and only screen and only screen and only screen and only screen and only screen and table in for de all brands all colors or to top brands for for for for and and and and de de de de top stores out of results for list view grid view to to results from stores from stores to to to to to to to to to to to to from stores to the web for to see your products in with el'
+tp205
+sg9
+g10
+(g12
+S'\x92\x00\x00\x00\x00\x00\x00\x00'
+tRp206
+sg14
+VSmartphone - Cell Phones: Compare Prices, Reviews & Buy ..._
+p207
+sa(dp208
+g3
+Vwww.pewresearch.org/fact-tank/2015/04/01/6-facts-about-americans-and
+p209
+sg5
+VNearly two-thirds of U.S. adults own a smartphone, up from 35% in 2011. Our new report analyzes smartphone ownership and owners' attitudes and behaviors.
+p210
+sg7
+(g209
+S"facts about and their chart new and function for the next if we're at the end because this is a two child set just go to the if else the other menu is open then set it back to false and close if to target and match in facts about and their facts about and their comments have become an important way for to go and access and share new report analyzes ownership and the attitudes and behaviors of as well as how these mobile devices have become a primary way for some users to access the are six key findings from the share of who own a has substantially increased since when first began examining nearly of adults own a up from in adults as well as those who are more affluent and have higher levels of education are among the most likely groups to own a owners particularly younger minorities and depend on their for adults who own a are meaning that they do not have home broadband service and have limited options for going other than their mobile ages are more likely than other age groups to be while and are more heavily dependent on their for access than are whites also rely heavily on for going of adults with an annual household income of less than are compared with of those whose family household income is or and going a majority of also use their for social taking photos or and catching up with the vast majority of owners say they used their phone for text voice and video and accessing the at least once over a weeklong experience sampling these four other were also of owners reported using their phone for social while took pictures or a and more than half got news on their at least once over the course of the survey serve as an access point for navigating a wide array of important life from health conditions to new owners have used their phone to get information about a health condition in the past similar to the percentage who say they used their for are not only using their to find information about but they also using their phones to of owners overall have submitted a job application via their mobile and among those whose household income is less than that share is substantially at essential is your to your of owners say their is something they live compared with who say that their phone is not always owners who depend on their mobile device for access are not significantly more inclined than those who have multiple options for going to say they live without their phone a can be a financial burden for some of owners have canceled or suspended their cell phone service because the cost was too is particularly the case for owners whose annual household income falls below of which have discontinued their while a majority of owners say their mobile device is worth the describe their phone as a financial the facts about and their is a research associate focusing on science and technology at data by jones years ago of all the things govt should have supplied and regulated the is the one main in some western european countries that are more access to the is not dependent on it is too vital a service and not like cable sad that access to even jobs will be determined in the future by income tiers there is the public but at the rate things are going for how years ago and in your upper class but a smart computer at home and a phone for emergency is just fine with don think offers that service anymore but they haven cancelled years ago phones are great as long as they are not substitute baby pacifiers you can go years ago see as get larger more like they could be used as a first line of public education about early childhood development and especially as you many young adults who are minority depend on their for primary access to we should develop for this to more easily develop messages and increase knowledge for young people who are more likely to become pregnant or are is so much about brain development we are learning is critical that these young people understand how some of their choices can effect their child brain development success in analysis and news about data from writers and social facts about refugees to the facts about abortion password challenged users don take steps that could protect their data divided in views of use of torture in efforts officers say the media treat police unfairly of with in the and on is a nonpartisan fact tank that informs the public about the attitudes and trends shaping and the conducts public opinion demographic media content analysis and other empirical social science does not take policy is a subsidiary of facts about and their id return facts about and their if function"
+tp211
+sg9
+g10
+(g12
+S'd\x00\x00\x00\x00\x00\x00\x00'
+tRp212
+sg14
+V6 facts about Americans and their smartphones | Pew ...
+p213
+sa.

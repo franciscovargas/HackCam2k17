@@ -6,11 +6,11 @@ function SvgGraph () {
     this.svg = d3.select("#graph"),
     this.width = +this.svg.attr("width"),
     this.height = +this.svg.attr("height");
-    this.color = d3.scaleOrdinal(d3.schemeCategory20);
+    this.color = d3.scaleOrdinal(d3.schemeCategory10);
     this.url1 =  "/graph_data";
     this.simulation = d3.forceSimulation()
       .force("link", d3.forceLink().id(function(d) { return d.id; }))
-      .force("charge", d3.forceManyBody())
+      .force("charge", d3.forceManyBody()  )
       .force("center", d3.forceCenter(this.width / 2, this.height / 2));
 }
 
@@ -36,10 +36,15 @@ SvgGraph.prototype.gen_graph = function(){
         .call(d3.drag()
             .on("start", $this.dragstarted.bind($this))
             .on("drag", $this.dragged)
-            .on("end", $this.dragended.bind($this)));
-
-      node.append("title")
-          .text(function(d) { return d.id; });
+            .on("end", $this.dragended.bind($this)))
+            .on("click", function(d) {
+              console.log( d);
+              var url = d.url;
+              // window.location.replace(url);
+              document.getElementById("content").style.display = "block";
+              document.getElementById("content").innerHTML = d.snippet + "\n"  + url;
+              console.log( "click");
+            });
 
       $this.simulation
           .nodes(graph.nodes)
@@ -68,6 +73,7 @@ SvgGraph.prototype.gen_graph = function(){
           if(ii==true){
             var text = $this.svg.selectAll("text")
                         .remove();
+
           }
           else{
             ii = true;
@@ -84,7 +90,7 @@ SvgGraph.prototype.gen_graph = function(){
                 .attr("font-family", "sans-serif")
                 .attr("font-size", "10px")
                 .attr("fill", "white");
-      }, 60)
+      }, 100)
   }]);
 }
 

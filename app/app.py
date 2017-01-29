@@ -1,5 +1,6 @@
 from flask import Flask, jsonify, render_template, request
 from bingAPI import Search_query
+from connection_strength import *
 import json
 
 app = Flask(__name__)
@@ -14,15 +15,43 @@ def render_graph():
     if request.method == 'POST':
         print "POST"
         data = request.form["data"]
-        print data
+        print data, "DATA"
         query = Search_query(data)
         out = query.sample()
+
+        # print data[0].keys()
+        docs = []
+        names = []
+        snippets = []
+        urls = []
+        for d in out:
+            names.append(d['name'])
+            docs.append(d['text'])
+            snippets.append(d['snippet'])
+            urls.append(d['url'])
+
+        print len(set(names)) < len(names)
+
+        # docs = ['This is the first run document.',
+        # 'This is the second second running document dog.',
+        # 'And the third runs ran one dog dog.',
+        # 'Is this the first run document dogs?']
+        filter_keywords = [data]
+        #
+        # #print get_term(docs)
+        docs = map(lambda x:(x)[1],docs)
+        transformer = get_vector_space(docs)
+        D = transformer.fit_transform(docs)
+        D = apply_weight(transformer, D, filter_keywords)
+        km = k_cluster(D)
+        x = save_jasonFile(docs, D, km, names, urls, snippets)
+        
+
         print len(data)
         print("data: ",data)
         with open("test.json") as f:
             d = json.loads(f.read())
-        for x in range(len(d["nodes"])):
-            d["nodes"][x]["group"] = 1
+  
         with open("test.json", "w") as f:
             f.write(json.dumps(d))
 

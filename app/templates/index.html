@@ -23,7 +23,8 @@
     }
     .links line {
       stroke: #999;
-      stroke-opacity: 0.6;
+      stroke-opacity: 1;
+      stroke-width: 5px;
     }
 
     .nodes circle {
@@ -35,6 +36,12 @@
       margin-top:17%;
       postion: relative !important;
     }
+
+    #imaginary_container2{
+      margin-top:17%;
+      postion: relative !important;
+    }
+
     .stylish-input-group .input-group-addon{
         background: white !important; 
     }
@@ -95,6 +102,44 @@
     #outer_progress_bar {
       left-padding: 300px !important;
     }
+
+    .wrapper, .wrapper-narrow, .wrapper-permalink {
+    position: relative;
+    width: 837px;
+    height: 60px;
+    padding: 5px 5px 5px;
+    margin: 0 auto;
+}
+
+.whitebg {
+  background-color:white;
+} 
+
+#content{
+  width: 400px;
+  height: 100px;
+}
+
+
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    margin-top: 20px;
+    padding-top: 0px;
+    left: 30px;
+    /*opacity: 0.8 ;*/
+}
+
+#transdiv{
+  filter: alpha(opacity=0);
+  width: 110px;
+}
   </style>
 
   <script>
@@ -107,7 +152,8 @@
         if (width >= 100) {
           clearInterval(id);
         } else {
-          width++; 
+          width++;
+          width = width % 100 
           elem.style.width = width + '%'; 
           document.getElementById("label").innerHTML = width * 1  + '%';
         }
@@ -115,8 +161,8 @@
     }
 
   function search(){
-    var sv = d3.select("#graph")
-        .selectAll("g").remove();
+       d3.selectAll("svg > *").remove();
+       document.getElementById("content").style.display = "none";
         document.getElementById("outer_progress_bar").style.display = "block";
         document.getElementById("graph").style.display = "none";
         move();
@@ -131,6 +177,7 @@
           data: {"data": package},
           success: function( data ) {
              console.log("test");
+             window.location.reload();
              setTimeout(function(){if (graphObject === undefined){
                 var graphObject = new SvgGraph();
                 // running graph methods TODO: Scheduler | conds satisfied
@@ -163,8 +210,7 @@
             
     <div class="container">
       <div class="row">
-           <img id="kek" src="{{ url_for('static', filename='Logo.PNG')}}"  style="width:204px;height:128px;">
-            <div class="col-sm-3 col-sm-offset-2">
+            <div class="col-sm-8 col-sm-offset-2">
                 <div id="imaginary_container"> 
                     <div class="input-group stylish-input-group">
                         <input id="txt" type="text" class="form-control"  placeholder="Search" >
@@ -176,10 +222,49 @@
                     </div>
                 </div>
             </div>
+            <br>
+
+            
+              <div id="transdiv" >
+
+              </div>
+              <div id="transdiv" >
+
+              </div>
+              <div id="transdiv" >
+
+              </div>
+               <div id="transdiv" >
+
+              </div>
+           <img id="kek" src="{{ url_for('static', filename='Logo.PNG')}}"  style="width:204px;height:128px;">
+               <div id="transdiv" >
+
+              </div>
+               <div id="transdiv" >
+
+              </div>
+               <div id="transdiv" >
+
+              </div>
+               <div id="transdiv" >
+
+              </div>
+               <div id="transdiv" >
+
+              </div>
+               <div id="transdiv" >
+
+              </div>
+            <div class="container" id="imaginary_container2"> 
+              <div id="content" class="span2 well whitebg" style="display:none;">
+                    content..
+              </div>
+            </div>
       </div>
     </div>
     <div class="row">
-      <svg id="graph" width="960" height="600" style="display: block;"></svg>
+      <svg id="graph" width="1300" height="600" style="display: block;"></svg>
       <br><br>
       <div id="outer_progress_bar"  class="container" style="display: none;">
         <div id="myProgress">
