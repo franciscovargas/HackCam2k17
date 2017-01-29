@@ -76,8 +76,9 @@
     var sv = d3.select("#graph")
         .selectAll("g").remove();
         console.log(document.getElementById("txt").value);
+        var package = document.getElementById("txt").value;        
         document.getElementById("txt").value = "";
-        $.post( "/main", function( data ) {
+        $.post( "/main", {"data" : package}, function( data ) {
              console.log("test");
              setTimeout(function(){if (graphObject === undefined){
                 var graphObject = new SvgGraph();
