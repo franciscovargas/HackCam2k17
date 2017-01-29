@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, render_template, request
-from bingAPI import *
+from bingAPI import Search_query
 import json
 
 app = Flask(__name__)
