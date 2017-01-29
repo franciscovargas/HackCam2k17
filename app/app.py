@@ -13,6 +13,7 @@ def get_json():
 def render_graph():
 	if request.method == 'POST':
 		print "POST"
+		data = request.data
 		with open("test.json") as f:
 			d = json.loads(f.read())
 		for x in range(len(d["nodes"])):
