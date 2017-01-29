@@ -83,7 +83,7 @@ SvgGraph.prototype.gen_graph = function(){
                 .text( function (d,i) { return graph.nodes[i].id; })
                 .attr("font-family", "sans-serif")
                 .attr("font-size", "10px")
-                .attr("fill", "red");
+                .attr("fill", "white");
       }, 60)
   }]);
 }
@@ -104,4 +104,9 @@ SvgGraph.prototype.dragended = function (d) {
   if (!d3.event.active) this.simulation.alphaTarget(0);
   d.fx = null;
   d.fy = null;
+}
+
+SvgGraph.prototype.search = function(){
+  $this.svg.append("g").remove();
+  console.log(document.getDocumentElementById("searcher"));
 }

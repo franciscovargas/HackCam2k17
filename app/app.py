@@ -11,7 +11,14 @@ def get_json():
 @app.route('/main', methods=['GET', 'POST'])
 def render_graph():
 	if request.method == 'POST':
-		pass
+		print "POST"
+		with open("test.json") as f:
+			d = json.loads(f.read())
+		for x in range(len(d["nodes"])):
+			d["nodes"][x]["group"] = 1
+		with open("test.json", "w") as f:
+			f.write(json.dumps(d))
+
 	else:
 		pass
 	return render_template("index.html")
