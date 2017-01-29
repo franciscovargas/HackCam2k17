@@ -8,8 +8,6 @@ import re
 
 import numpy as np
 
-from html2text import html2text
-
 from IPython import embed
 
 class Search_query(object):
@@ -64,63 +62,6 @@ class Search_query(object):
         print("ERR this should not happen query_bing_search")
         return None
 
-    # def web_page_text(self, url):
-    #     try:
-    #         # page = html.fromstring(urllib.urlopen(url).read())
-    #         # page_text = page.text_content()
-    #         # print url
-    #         page = requests.get(url)
-    #         html = page.content
-    #         page_text = "" #html2text(html)
-    #         try:
-    #             # page_text = html2text(html)
-    #             soup = BeautifulSoup(html)
-    #             page_text = soup.get_text()
-    #         except Exception, e:
-    #             embed()
-    #             raise e
-
-    #         return (url, page_text)
-    #     except Exception as e:
-    #         print "WWWWWWWWWW  ", url
-    #         try:
-    #             url_added_http = "http://"+url
-    #             # page = html.fromstring(urllib.urlopen(url_added_http).read())
-    #             # page_text = page.text_content()
-
-    #             page = requests.get(url_added_http)
-    #             html = page.content
-    #             page_text = "" #html2text(html)
-    #             soup = BeautifulSoup(html)
-    #             page_text = soup.get_text()
-    #             return (url, page_text)
-    #         except Exception, e:
-    #             print "QQQQQQQQQQQQQQQQQQQQQ  "
-    #                     # print("[Errno {0}] {1}".format(e.errno, e.strerror))
-
-
-    # def web_page_text(self, url):
-    #     page_text = ""
-    #     try:
-    #         page = html.fromstring(urllib.urlopen(url).read())
-    #         page_text = page.text_content()
-
-    #     except Exception as e:
-    #         # print "WWWWWWWWWW  ", url
-    #         try:
-    #             url_added_http = "http://"+url
-    #             page = html.fromstring(urllib.urlopen(url_added_http).read())
-    #             page_text = page.text_content()
-
-    #         except Exception, e:
-    #             print "QQQQQQQQQQQQQQQQQQQQQ  "
-
-
-    #     page_text = re.sub(r'[^\x00-\x7F]+',' ', page_text)  # filters out weird character
-    #     page_text = re.sub(r'([\t|\n| ])+',' ', page_text)   # filters out consecutive tabs, spaces and new lines
-
-    #     return (url, page_text)
-
     def web_page_text_second_trial(self, url):
         page_text = ""
         try:
@@ -168,21 +109,6 @@ class Search_query(object):
         as_list = str(page_text).split()
         page_text = ' '.join(filter( lambda x: len(x)<30, as_list))
         return (url, page_text)
-
-    # def sample_first_n(self, first_n=10):
-    #     assert len(self.results_dict.keys())>=first_n, "less than first_n pages in results"
-
-    #     for i in xrange(first_n):
-    #         url = self.results_dict[i]['displayUrl']
-    #         text = self.web_page_text(url)
-    #         if text is None:
-    #             print i, "was None", url
-    #         self.sampelled_pages.append((i,url,text))
-
-    #     # self.sampelled_pages = list(set(self.sampelled_pages)) # remove duplicates just in case
-
-    #     return self.sampelled_pages 
-
 
     def sample(self, n_samples = 35):
         self.sampelled_pages = []
