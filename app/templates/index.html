@@ -32,7 +32,8 @@
     }
 
     #imaginary_container{
-      margin-top:12%;
+      margin-top:17%;
+      postion: relative !important;
     }
     .stylish-input-group .input-group-addon{
         background: white !important; 
@@ -45,6 +46,28 @@
     .stylish-input-group button{
         border:0;
         background:transparent;
+    }
+
+    #kek img{
+      position: absolute;
+      top: 0px;
+      right: 0px;
+    }
+
+    .col-sm-offset-2 {
+    margin-left: 0%;
+}
+
+    .row {
+        display: flex; /* equal height of the children */
+    }
+
+    .container {
+      right: 0px !important;
+    }
+
+    .row {
+      right: 0px !important;
     }
   </style>
 
@@ -60,7 +83,7 @@
                 var graphObject = new SvgGraph();
                 // running graph methods TODO: Scheduler | conds satisfied
                 graphObject.gen_graph();
-             }}, 500);
+             }}, 50);
         });
 
   }
@@ -74,12 +97,14 @@
   </script>
 
   <body>
+            
     <div class="container">
       <div class="row">
+           <img id="kek" src="{{ url_for('static', filename='Logo.PNG')}}"  style="width:204px;height:128px;">
             <div class="col-sm-3 col-sm-offset-2">
                 <div id="imaginary_container"> 
                     <div class="input-group stylish-input-group">
-                        <input id="txt" type="text" class="form-control"  placeholder="Filter by" >
+                        <input id="txt" type="text" class="form-control"  placeholder="Search" >
                         <span class="input-group-addon">
                             <button id="searcher" type="submit" onclick="search();">
                                 <span class="glyphicon glyphicon-search" ></span>
