@@ -1,32 +1,193 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-</head>
-<style>
+<html>
+  <head>
+    <title>VerTeX</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-.links line {
-  stroke: #999;
-  stroke-opacity: 0.6;
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link ref="stylesheet" type="text/css" href="{{ url_for('static', filename='css/graph.css') }}" >
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="{{ url_for('static', filename='js/graph_api.js')}}"></script>
+
+
+  </head>
+
+  <style type="text/css">
+    body {
+      background-color: black !important;
+    }
+    .links line {
+      stroke: #999;
+      stroke-opacity: 0.6;
+    }
+
+    .nodes circle {
+      stroke: #fff;
+      stroke-width: 1.5px;
+    }
+
+    #imaginary_container{
+      margin-top:17%;
+      postion: relative !important;
+    }
+    .stylish-input-group .input-group-addon{
+        background: white !important; 
+    }
+    .stylish-input-group .form-control{
+      border-right:0; 
+      box-shadow:0 0 0; 
+      border-color:#ccc;
+    }
+    .stylish-input-group button{
+        border:0;
+        background:transparent;
+    }
+
+    #kek img{
+      position: absolute;
+      top: 0px;
+      right: 0px;
+    }
+
+    .col-sm-offset-2 {
+    margin-left: 0%;
 }
 
-.nodes circle {
-  stroke: #fff;
-  stroke-width: 1.5px;
-}
+    .row {
+        display: flex; /* equal height of the children */
+    }
 
-</style>
-<script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="../static/js/graph_api.js"></script>
+    .container {
+      right: 0px !important;
+    }
 
+    .row {
+      right: 0px !important;
+    }
 
-<script>
-$( document ).ready(function() {
-  var g = new SvgGraph();
-  g.gen_graph();
-});
-</script>
+    #myProgress {
+      position: relative;
+      width: 400px;
+      height: 25px;
+      background-color: #ddd;
+      right: -240px;
+      top: 130px;
+    }
 
-<body>
-  <svg id="graph" width="960" height="600"></svg>
-</body>
+    #myBar {
+      position: absolute;
+      width: 10%;
+      height: 100%;
+      background-color: #4CAF50;
+    }
+
+    #label {
+      text-align: center;
+      line-height: 30px;
+      color: white;
+    }
+
+    #outer_progress_bar {
+      left-padding: 300px !important;
+    }
+  </style>
+
+  <script>
+
+    function move() {
+      var elem = document.getElementById("myBar");   
+      var width = 0.5;
+      var id = setInterval(frame, 600);
+      function frame() {
+        if (width >= 100) {
+          clearInterval(id);
+        } else {
+          width++; 
+          elem.style.width = width + '%'; 
+          document.getElementById("label").innerHTML = width * 1  + '%';
+        }
+      }
+    }
+
+  function search(){
+    var sv = d3.select("#graph")
+        .selectAll("g").remove();
+        document.getElementById("outer_progress_bar").style.display = "block";
+        document.getElementById("graph").style.display = "none";
+        move();
+        console.log(document.getElementById("txt").value);
+        var package = document.getElementById("txt").value;        
+        document.getElementById("txt").value = "";
+
+        $.ajax({
+          type: "POST",
+          url: "/main",
+          // data: {"hola":"holahej"},
+          data: {"data": package},
+          success: function( data ) {
+             console.log("test");
+             setTimeout(function(){if (graphObject === undefined){
+                var graphObject = new SvgGraph();
+                // running graph methods TODO: Scheduler | conds satisfied
+                document.getElementById("outer_progress_bar").style.display = "none";
+                document.getElementById("graph").style.display = "block";
+                graphObject.gen_graph();
+             }}, 50);
+          }
+        })
+        // $.post( "/main", {"data" : package}, function( data ) {
+        //      console.log("test");
+        //      setTimeout(function(){if (graphObject === undefined){
+        //         var graphObject = new SvgGraph();
+        //         // running graph methods TODO: Scheduler | conds satisfied
+        //         graphObject.gen_graph();
+        //      }}, 50);
+        // });
+
+  }
+  $( document ).ready(function() {
+    // instantiating graph object
+    var graphObject = new SvgGraph();
+    // running graph methods TODO: Scheduler | conds satisfied
+    graphObject.gen_graph();
+    console.log("END");
+  });
+  </script>
+
+  <body>
+            
+    <div class="container">
+      <div class="row">
+           <img id="kek" src="{{ url_for('static', filename='Logo.PNG')}}"  style="width:204px;height:128px;">
+            <div class="col-sm-3 col-sm-offset-2">
+                <div id="imaginary_container"> 
+                    <div class="input-group stylish-input-group">
+                        <input id="txt" type="text" class="form-control"  placeholder="Search" >
+                        <span class="input-group-addon">
+                            <button id="searcher" type="submit" onclick="search();">
+                                <span class="glyphicon glyphicon-search" ></span>
+                            </button>  
+                        </span>
+                    </div>
+                </div>
+            </div>
+      </div>
+    </div>
+    <div class="row">
+      <svg id="graph" width="960" height="600" style="display: block;"></svg>
+      <br><br>
+      <div id="outer_progress_bar"  class="container" style="display: none;">
+        <div id="myProgress">
+          <div id="myBar">
+            <div id="label">10%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
