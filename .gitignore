@@ -1,0 +1,4 @@
+*.py[cod]
+
+api_key_bing_search.txt
+out
