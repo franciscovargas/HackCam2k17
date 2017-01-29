@@ -5,6 +5,7 @@ import json
 import requests
 from bs4 import BeautifulSoup
 import re
+import cPickle
 
 import numpy as np
 
@@ -150,6 +151,8 @@ class Search_query(object):
                 self.sampelled_pages.append({'id':i,'url':url,'name':self.results_dict[i]['name'],'snippet':self.results_dict[i]['snippet'], 'text':text}) #(i,url,text))
 
 
+        with open("sampelled_pages.pkl",'wb') as fp:
+            cPickle.dump(self.sampelled_pages,fp)
         return self.sampelled_pages
 
 ####################################

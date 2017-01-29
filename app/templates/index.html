@@ -78,14 +78,29 @@
         console.log(document.getElementById("txt").value);
         var package = document.getElementById("txt").value;        
         document.getElementById("txt").value = "";
-        $.post( "/main", {"data" : package}, function( data ) {
+
+        $.ajax({
+          type: "POST",
+          url: "/main",
+          // data: {"hola":"holahej"},
+          data: {"data": package},
+          success: function( data ) {
              console.log("test");
              setTimeout(function(){if (graphObject === undefined){
                 var graphObject = new SvgGraph();
                 // running graph methods TODO: Scheduler | conds satisfied
                 graphObject.gen_graph();
              }}, 50);
-        });
+          }
+        })
+        // $.post( "/main", {"data" : package}, function( data ) {
+        //      console.log("test");
+        //      setTimeout(function(){if (graphObject === undefined){
+        //         var graphObject = new SvgGraph();
+        //         // running graph methods TODO: Scheduler | conds satisfied
+        //         graphObject.gen_graph();
+        //      }}, 50);
+        // });
 
   }
   $( document ).ready(function() {
