@@ -9,7 +9,9 @@ import cPickle
 
 import numpy as np
 
-# from IPython import embed
+from IPython import embed
+
+
 
 class Search_query(object):
     """docstring for Search_query"""
@@ -23,6 +25,10 @@ class Search_query(object):
 
         self.results_dict = dict()
         self.sampelled_pages  = []
+        with open("words.txt") as f:
+            self.words = set(f.read().split())
+
+        embed()
         
 
     def query_bing_search(self, query_str=None, count = 10, offset = 0):
@@ -82,7 +88,8 @@ class Search_query(object):
         page_text = re.sub(r'[^\x00-\x7F]+',' ', page_text)  # filters out weird character
         page_text = re.sub(r'([\t|\n| ])+',' ', page_text)   # filters out consecutive tabs, spaces and new lines
         as_list = str(page_text).split()
-        page_text = ' '.join(filter( lambda x: len(x)<30, as_list))
+        embed()
+        page_text = ' '.join(filter( lambda x: len(x)<30 and x in self.words, as_list))
         return (url, page_text)
 
     def web_page_text(self, url):
@@ -108,7 +115,7 @@ class Search_query(object):
         page_text = re.sub(r'[^\x00-\x7F]+',' ', page_text)  # filters out weird character
         page_text = re.sub(r'([\t|\n| ])+',' ', page_text)
         as_list = str(page_text).split()
-        page_text = ' '.join(filter( lambda x: len(x)<30, as_list))
+        page_text = ' '.join(filter( lambda x: len(x)<30 and x in self.words, as_list))
         return (url, page_text)
 
     def sample(self, n_samples = 35):
@@ -173,8 +180,8 @@ if __name__ == '__main__':
 
 
 # just for the record
-# f = open("out","wb")
-# f.write(str(out))
-# f.close()
+f = open("out","wb")
+f.write(str(out))
+f.close()
 
 # embed()

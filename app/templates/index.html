@@ -69,12 +69,57 @@
     .row {
       right: 0px !important;
     }
+
+    #myProgress {
+      position: relative;
+      width: 400px;
+      height: 25px;
+      background-color: #ddd;
+      right: -240px;
+      top: 130px;
+    }
+
+    #myBar {
+      position: absolute;
+      width: 10%;
+      height: 100%;
+      background-color: #4CAF50;
+    }
+
+    #label {
+      text-align: center;
+      line-height: 30px;
+      color: white;
+    }
+
+    #outer_progress_bar {
+      left-padding: 300px !important;
+    }
   </style>
 
   <script>
+
+    function move() {
+      var elem = document.getElementById("myBar");   
+      var width = 0.5;
+      var id = setInterval(frame, 600);
+      function frame() {
+        if (width >= 100) {
+          clearInterval(id);
+        } else {
+          width++; 
+          elem.style.width = width + '%'; 
+          document.getElementById("label").innerHTML = width * 1  + '%';
+        }
+      }
+    }
+
   function search(){
     var sv = d3.select("#graph")
         .selectAll("g").remove();
+        document.getElementById("outer_progress_bar").style.display = "block";
+        document.getElementById("graph").style.display = "none";
+        move();
         console.log(document.getElementById("txt").value);
         var package = document.getElementById("txt").value;        
         document.getElementById("txt").value = "";
@@ -89,6 +134,8 @@
              setTimeout(function(){if (graphObject === undefined){
                 var graphObject = new SvgGraph();
                 // running graph methods TODO: Scheduler | conds satisfied
+                document.getElementById("outer_progress_bar").style.display = "none";
+                document.getElementById("graph").style.display = "block";
                 graphObject.gen_graph();
              }}, 50);
           }
@@ -131,6 +178,16 @@
             </div>
       </div>
     </div>
-    <svg id="graph" width="960" height="600"></svg>
+    <div class="row">
+      <svg id="graph" width="960" height="600" style="display: block;"></svg>
+      <br><br>
+      <div id="outer_progress_bar"  class="container" style="display: none;">
+        <div id="myProgress">
+          <div id="myBar">
+            <div id="label">10%</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
